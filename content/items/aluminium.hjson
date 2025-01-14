@@ -1,0 +1,7 @@
+name: Aluminium
+description: "A soft, complex metal used in advanced building and certain alloys."
+hardness: 0.7
+cost: 1.3
+color: b1b1b1
+research: chromium
+hiddenOnPlanets: [serpulo, erekir]
