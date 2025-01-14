@@ -1,0 +1,15 @@
+type: OverflowGate
+invert: true
+name: Underflow Port
+description: Outputs items to the front if the sides are blocked.
+category: distribution
+squareSprite: false
+research: iron-overflow-port
+researchCost: [
+  iron/80
+  chromium/40
+]
+requirements: [
+  iron/8
+  chromium/4
+]
