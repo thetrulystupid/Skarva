@@ -1,0 +1,8 @@
+name: Kanthal
+description: "A heat-resistant, purple metal used in heating."
+hardness: 1.33
+cost: 1
+alwaysUnlocked: false
+color: 887991
+research: chromium
+hiddenOnPlanets: [serpulo, erekir]
