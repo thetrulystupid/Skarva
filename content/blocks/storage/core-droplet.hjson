@@ -1,0 +1,20 @@
+type: CoreBlock
+name: Core: Droplet
+description: The most important building, if this dies, the sector is lost. Stores a small amount of items and has light armor.
+requirements: [
+  iron/1700
+]
+isFirstTier: true
+size: 3
+unitType: splash
+squareSprite: false
+health: 2200
+itemCapacity: 5000
+unitCapModifier: 8
+alwaysUnlocked: true
+category: effect
+research: {
+  planet: skarva
+  root: true
+  name: Skarva
+}
