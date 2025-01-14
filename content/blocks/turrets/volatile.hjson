@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Volatile
+description: A large, burst-fire artillery turret. Good in backlines.
+size: 3
+recoil: 2
+recoils: 3
+envEnabled: 193
+targetAir: false
+targetGround: true
+health: 1060
+outlineColor: 2a2e35
+inaccuracy: 4
+reload: 55
+shootCone: 10
+rotateSpeed: 2.5
+range: 330
+minRange: 30
+shoot: {
+  type: ShootBarrel
+  shotDelay: 20
+  barrelOffset: 1
+  barrels: [
+    -4, 0, 0,
+    0, 2, 0,
+    4, 0, 0
+  ]
+}
+research: boil
+ammoTypes: {
+	kanthal: {
+		type: ArtilleryBulletType
+            speed: 2.5
+            trailColor: d9d9d9
+	    	trailLength: 3
+	    	trailWidth: 4
+            width: 8
+            height: 10
+            damage: 48
+            splashDamage: 48
+            splashDamageRadius: 44
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+		    ammoMultiplier: 4,
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+  parts: [
+    {  
+      type: RegionPart
+      suffix: -barrel-left
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+      x: -3
+      y: 4
+      recoilIndex: 0
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-middle
+      under: false
+      layerOffset: -0.002
+      recoilIndex: 2
+      moveY: -2
+      y: 9
+      progress: recoil
+    }
+    {  
+      type: RegionPart
+      suffix: -barrel-right
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+      x: 3
+      y: 4
+      recoilIndex: 1
+    }
+  ]
+}
+requirements: [
+    kanthal/140
+    iron/220
+    aluminium/90
+]
+category: turret
+shootSound: artillery
+squareSprite: false
