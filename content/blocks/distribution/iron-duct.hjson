@@ -1,0 +1,13 @@
+type: Duct
+name: Iron Duct
+description: Slowly pushes items forward. Can only hold a single item.
+category: distribution
+research: core-droplet
+researchCost: [
+  iron/15
+]
+speed: 7
+health: 30
+requirements: [
+  iron/1
+]
