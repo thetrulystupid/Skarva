@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: Simple Frame Molder
+description: Melts large amounts of iron and turns them into simple frames.
+size: 3
+craftTime: 90
+squareSprite: false
+research: {
+   parent: kanthal-melter
+   objectives: [
+      aluminium
+   ]
+}
+researchCost: [
+  iron/1400
+  chromium/800
+  aluminium/600
+]
+consumes: {
+  items: [
+    iron/8
+  ]
+}
+outputItem: simple-frame/1
+category: crafting
+requirements: [
+    iron/140
+    chromium/80
+    aluminium/60
+]
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawFrames
+      frames: 21
+      interval: 4
+      sine: true
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
