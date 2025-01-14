@@ -1,0 +1,46 @@
+type: HeatCrafter
+name: Kanthal Melter
+description: Melts Chromium and Iron and turns them into Kanthal. Slow and inefficient.
+size: 3
+craftTime: 75
+heatRequirement: 6
+maxEfficiency: 1
+squareSprite: false
+outputItem: kanthal/1
+research: {
+   parent: core-droplet
+   objectives: [
+      atmospheric-heater
+   ]
+}
+researchCost: [
+  iron/400
+  chromium/400
+]
+consumes: {
+  items: [
+    iron/2
+    chromium/1
+  ]
+}
+category: crafting
+requirements: [
+    iron/40
+    chromium/40
+]
+craftEffect: drillSteam
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
