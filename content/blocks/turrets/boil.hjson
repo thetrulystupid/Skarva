@@ -1,0 +1,47 @@
+type: PowerTurret
+name: Boil
+description: Slow beam turret that burns most things it hits. Requires heat.
+size: 2
+targetAir: false
+targetGround: true
+health: 450
+outlineColor: 2a2e35
+inaccuracy: 0
+reload: 120
+shootCone: 3
+rotateSpeed: 2
+range: 190
+shootY: 0
+research: {
+   parent: blast
+   objectives: [
+      atmospheric-heater
+   ]
+}
+researchCost: [
+  iron/550
+  chromium/700
+]
+shootType: {
+  type: LaserBulletType
+  colors: [c5787d, e29ca1, ffffff]
+  length: 190
+  damage: 45
+  sideAngle: 15
+  status: burning
+  statusDuration: 240
+  buildingDamageMultiplier: 0.5
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+}
+heatRequirement: 5
+maxHeatEfficiency: 1
+requirements: [
+    iron/85
+	chromium/110
+]
+category: turret
+shootSound: boil-shoot
+squareSprite: false
