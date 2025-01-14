@@ -1,0 +1,23 @@
+type: Wall
+name: Kanthal Wall
+description: Wall made from Kanthal, burns enemies nearby on death.
+size: 1
+health: 480
+research: iron-wall-large
+squareSprite: false
+destroyBullet: {
+    type: BulletType
+    speed: 0
+    lifetime: 0
+    collides: false
+    hittable: false
+    hitEffect: none
+    status: burning
+    splashDamage: 7
+    splashDamageRadius: 24
+    despawnSound: dullExplosion
+}
+requirements: [
+  kanthal/6
+]
+category: defense
