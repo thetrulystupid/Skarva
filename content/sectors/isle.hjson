@@ -1,0 +1,16 @@
+captureWave: 15
+isWaves: true
+planet: skarva
+sector: 6
+research: {
+  parent: landing
+  objectives: [
+    {
+      type: SectorComplete
+      preset: landing
+    }
+  ]
+}
+difficulty: 2
+localizedName: Isle
+description: Small, open sector. Collect and research Chromium. Move forward.
