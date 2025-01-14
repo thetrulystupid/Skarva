@@ -1,0 +1,14 @@
+type: Junction
+name: Iron Junction
+description: Allows conveyors to cross over eachother.
+category: distribution
+speed: 7
+health: 60
+squareSprite: false
+research: iron-duct
+researchCost: [
+  iron/30
+]
+requirements: [
+  iron/3
+]
