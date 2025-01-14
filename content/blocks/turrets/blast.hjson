@@ -1,0 +1,77 @@
+type: ItemTurret
+name: Blast
+description: Durable and short range turret for crowd control.
+size: 2
+targetAir: false
+targetGround: true
+health: 800
+inaccuracy: 10
+outlineColor: 2a2e35
+reload: 75
+shootCone: 7
+rotateSpeed: 5
+range: 100
+recoil: 2
+velocityRnd: 0.3
+shootY: -0.2
+research: fang
+researchCost: [
+  iron/650
+  chromium/400
+]
+ammoTypes: {
+	chromium: {
+		type: BasicBulletType
+		speed: 8,
+		damage: 10,
+		width: 4
+		height: 8
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+		lifetime: 27
+		shootEffect: shootSmall,
+		smokeEffect: shootSmallSmoke,
+		ammoMultiplier: 2,
+		knockback: 0.6
+	},
+	silt: {
+		type: BasicBulletType
+		speed: 6,
+		damage: 4,
+		width: 5
+		height: 6
+		lifetime: 32
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+		shootEffect: shootSmall,
+		smokeEffect: shootSmallSmoke,
+		ammoMultiplier: 2,
+		knockback: 2.4
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+	  moveY: -2
+    }
+  ]
+}
+requirements: [
+    iron/65
+	chromium/40
+]
+category: turret
+shootSound: shotgun-small
+shoot: {
+   shots: 8
+}
+squareSprite: false
