@@ -1,0 +1,11 @@
+type: Wall
+name: Iron Wall
+description: Simple wall that protects structures.
+size: 1
+health: 330
+research: core-droplet
+squareSprite: false
+requirements: [
+  iron/6
+]
+category: defense
