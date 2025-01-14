@@ -1,0 +1,12 @@
+type: Sorter
+name: Iron Sorter
+description: Sorts items. Any item selected gets output forward while everything else is output to the sides.
+category: distribution
+squareSprite: false
+research: iron-router
+researchCost: [
+  iron/80
+]
+requirements: [
+  iron/8
+]
