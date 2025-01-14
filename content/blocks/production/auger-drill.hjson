@@ -1,0 +1,32 @@
+type: Drill
+name: Auger Drill
+description: Outputs items at a decent pace. The first building that requires Frames.
+size: 3
+category: production
+squareSprite: false
+warmupSpeed: 0.02
+rotateSpeed: 3.4
+tier: 2
+research: {
+   parent: rudimentary-drill
+   objectives: [
+      aluminium
+      simple-frame
+   ]
+}
+researchCost: [
+  iron/600
+  chromium/400
+  aluminium/400
+  simple-frame/50
+]
+requirements: [
+  simple-frame/5
+  iron/60
+  chromium/40
+  aluminium/40
+]
+drillTime: 313
+ambientSound: drill
+ambientSoundVolume: 0.11
+liquidBoostIntensity: 1
