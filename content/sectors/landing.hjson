@@ -1,0 +1,9 @@
+captureWave: 10
+isWaves: true
+planet: skarva
+sector: 0
+research: core-droplet
+difficulty: 1
+alwaysUnlocked: true
+localizedName: Landing
+description: The beginning. Research Iron and it's uses. Move forward.
