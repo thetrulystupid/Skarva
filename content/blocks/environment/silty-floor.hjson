@@ -1,0 +1,5 @@
+type: Floor
+name: Silty Sand
+description: A grimey, silty floor.
+itemDrop: silt
+variants: 1
