@@ -1,0 +1,39 @@
+type: HeatProducer
+name: Atmospheric Heater
+description:  Produces a small amount of heat passively. Inefficient and expensive.
+size: 1
+category: crafting
+squareSprite: false
+rotate: true
+research: chromium
+research: core-droplet
+requirements: [
+  chromium/90
+]
+generateEffect: none
+heatOutput: 1
+researchCost: [
+  chromium/450
+  ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      suffix: -heat
+      blending: additive
+      color: ff8e61
+    }
+    {
+      type: DrawHeatOutput
+      suffix: -top1
+    }
+    {
+      type: DrawHeatOutput
+      suffix: -top2
+    }
+  ]
+}
