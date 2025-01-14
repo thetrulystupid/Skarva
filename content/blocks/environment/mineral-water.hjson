@@ -1,0 +1,9 @@
+type: Floor
+name: Mineral Water
+variants: 3
+speedMultiplier: 0.8
+isLiquid: true
+liquidDrop: liquid-mineral-water
+cacheLayer: water
+supportsOverlay: true
+drownTime: 360
