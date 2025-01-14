@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Hunter
+description: A light missile turret to keep crowds of enemies in check.
+size: 2
+targetAir: true
+targetGround: true
+health: 660
+minWarmup: 0.99
+warmupMaintainTime: 120
+shootWarmupSpeed: 0.05
+outlineColor: 2a2e35
+reload: 150
+shootCone: 5
+rotateSpeed: 2
+range: 220
+research: blast
+researchCost: [
+  iron/800
+  chromium/800
+  kanthal/500
+]
+ammoTypes: {
+	kanthal: {
+		ammoMultiplier: 4
+        reloadMultiplier: 0.70
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        instantDisappear: true
+        damage: 0
+        spawnUnit: hunter-missile
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -shell
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 1.5
+    }
+  ]
+}
+requirements: [
+    iron/80
+    chromium/80
+    kanthal/50
+]
+category: turret
+shootSound: shootBig
+squareSprite: false
