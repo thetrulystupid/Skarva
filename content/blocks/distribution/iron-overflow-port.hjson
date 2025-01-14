@@ -1,0 +1,12 @@
+type: OverflowGate
+name: Overflow Port
+description: Outputs items to the sides if the front is blocked.
+category: distribution
+squareSprite: false
+research: iron-router
+researchCost: [
+  iron/80
+]
+requirements: [
+  iron/8
+]
