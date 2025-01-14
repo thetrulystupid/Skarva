@@ -1,0 +1,23 @@
+type: Drill
+name: Rudimentary Drill
+description: Outputs items slowly. Can only mine basic items.
+size: 2
+category: production
+squareSprite: false
+warmupSpeed: 0.01
+rotateSpeed: 1.2
+tier: 1
+research: {
+   parent: core-droplet
+   objectives: [
+      iron,
+      core-droplet
+   ]
+}
+requirements: [
+  iron/15
+]
+drillTime: 400
+ambientSound: drill
+ambientSoundVolume: 0.05
+liquidBoostIntensity: 1
