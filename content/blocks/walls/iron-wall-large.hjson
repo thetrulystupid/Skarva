@@ -1,0 +1,11 @@
+type: Wall
+name: Large Iron Wall
+description: Simple, large wall that protects structures.
+size: 2
+health: 1650
+research: iron-wall-small
+squareSprite: false
+requirements: [
+  iron/24
+]
+category: defense
