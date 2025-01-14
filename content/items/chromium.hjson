@@ -1,0 +1,8 @@
+name: Chromium
+description: "A shiny, hard metal used in alloys."
+hardness: 0.75
+cost: 1
+alwaysUnlocked: false
+color: d1e9e5
+research: iron
+hiddenOnPlanets: [serpulo, erekir]
