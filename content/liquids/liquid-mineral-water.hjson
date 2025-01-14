@@ -1,0 +1,8 @@
+name: Mineral Water
+description: Heavy liquid containing trace amounts of metals which can be extracted.
+effect: wet
+boilPoint: 0.8
+color: 7c9cb3
+heatCapacity: 0.2
+gasColor: c3dff3
+research: chromium
