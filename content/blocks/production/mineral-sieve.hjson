@@ -1,0 +1,45 @@
+type: Separator
+name: Mineral Sieve
+description: Sifts Mineral Water to produce an array of metals. Slow.
+size: 2
+squareSprite: false
+category: crafting
+research: kanthal-melter
+requirements: [
+  iron/70
+  chromium/70
+  kanthal/55
+]
+consumes: {
+  liquids: [
+    liquid-mineral-water/0.15
+  ]
+}
+researchCost: [
+  iron/700
+  chromium/700
+  kanthal/550
+]
+craftTime: 55
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 4
+    }
+  ]
+}
+results: [
+  chromium/1
+  iron/1
+  aluminium/1
+]
