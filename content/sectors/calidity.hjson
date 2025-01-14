@@ -1,0 +1,16 @@
+captureWave: 20
+isWaves: true
+planet: skarva
+sector: 11
+research: {
+  parent: isle
+  objectives: [
+    {
+      type: SectorComplete
+      preset: isle
+    }
+  ]
+}
+difficulty: 3
+localizedName: Calidity
+description: Pretty small and cramped sector. Research the Atmospheric Heater and Kanthal.
