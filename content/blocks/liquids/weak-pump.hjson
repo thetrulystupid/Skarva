@@ -1,0 +1,24 @@
+type: Pump
+name: Weak Pump
+description: Slowly pumps liquids from tiles.
+size: 1
+category: liquid
+squareSprite: false
+researchCost: [
+  iron/660
+  chromium/600
+]
+research: {
+   parent: core-droplet
+   objectives: [
+   {
+      type: SectorComplete
+      preset: calidity
+      }
+   ]
+}
+requirements: [
+  iron/22
+  chromium/20
+]
+pumpAmount: 0.05
