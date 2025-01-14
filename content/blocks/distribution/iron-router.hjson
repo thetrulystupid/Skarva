@@ -1,0 +1,14 @@
+type: Router
+name: Iron Router
+description: Outputs items on 3 sides.
+category: distribution
+speed: 7
+health: 60
+squareSprite: false
+research: iron-duct
+researchCost: [
+  iron/40
+]
+requirements: [
+  iron/4
+]
