@@ -1,0 +1,14 @@
+type: Conduit
+name: Thin Pipe
+description: Transports liquids forward. Switch these out as fast as possible.
+category: liquid
+research: weak-pump
+requirements: [
+  chromium/3
+]
+researchCost: [
+  chromium/300
+]
+health: 10
+leaks: true
+underBullets: true
