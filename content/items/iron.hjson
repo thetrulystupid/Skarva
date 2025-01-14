@@ -1,0 +1,8 @@
+name: Iron
+description: "A sturdy, simple metal used in simple building."
+hardness: 1
+cost: 1
+alwaysUnlocked: true
+color: af9c9c
+research: core-droplet
+hiddenOnPlanets: [serpulo, erekir]
