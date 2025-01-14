@@ -1,0 +1,8 @@
+name: Silt
+description: "A mineral that has a consistancy of clay and sand, used in brittle materials."
+hardness: 0.5
+cost: 0.5
+alwaysUnlocked: false
+color: 8a614f
+research: iron
+hiddenOnPlanets: [serpulo, erekir]
