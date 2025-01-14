@@ -1,0 +1,78 @@
+type: mech
+name: Arrow
+description: Armed with a heavy burstfire gun. Burns nearby enemies with a flamethrower.
+speed: 0.75
+flying: false
+health: 490
+hitSize: 6
+outlineColor: 2a2e35
+  weapons: [
+    {
+        x: 7
+        y: 0
+        name: arrow-gun
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 60
+        recoil: 2
+        shoot: {
+          shots: 3
+          shotDelay: 5
+         }
+         shootSound: shootBig
+        bullet: {
+            type: BasicBulletType
+            speed: 5
+	    	trailColor: d9d9d9
+	    	trailLength: 3
+	    	trailWidth: 2
+            width: 6
+            height: 9
+            damage: 14
+        }
+    }
+    {
+        x: -7
+        y: 0
+        name: arrow-burny-gun
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 8
+        shootSound: flame
+        shoot: {
+        type: shootSpread
+        shots: 3
+        spread: 4
+        } 
+        bullet: {
+            type: BulletType
+            speed: 3
+            makeFire: true
+            shootEffect: none
+            pierce: true
+            pierceBuilding: true
+            ammoMultiplier: 5
+	    	trailWidth: 1
+            width: 0.01
+            height: 0.01
+            damage: 4
+            lifetime: 13
+            despawnEffect: none
+            hittable: false
+            smokeEffect: {
+        type: ParticleEffect
+          particles: 13
+          length: 70
+          lifetime: 20
+          interp: circleOut
+          cone: 3
+          colorFrom: ffb06d
+          colorTo: b59f8c
+          sizeFrom: 5
+          sizeTo: 1
+        }
+        }
+    }
+]
