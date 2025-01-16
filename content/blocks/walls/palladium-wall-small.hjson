@@ -1,0 +1,12 @@
+type: Wall
+name: Palladium Wall
+description: Strong wall that protects structures. Lightly armored.
+size: 1
+armor: 2
+health: 620
+research: kanthal-wall-small
+squareSprite: false
+requirements: [
+  palladium/6
+]
+category: defense
