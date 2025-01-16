@@ -1,7 +1,7 @@
 type: Wall
 name: Large Palladium Wall
 description: Strong wall that protects structures. Decently armored.
-size: 1
+size: 2
 armor: 4
 health: 2480
 research: palladium-wall-small
