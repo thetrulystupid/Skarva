@@ -1,0 +1,36 @@
+type: mech
+name: Pin
+description: Small mech for scouting or raiding in large groups.
+speed: 0.85
+flying: false
+health: 210
+hitSize: 6
+outlineColor: 2a2e35
+  weapons: [
+    {
+        x: 4
+        y: 0
+        name: pin-gun
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 45
+        recoil: 1.5
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 2
+          shotDelay: 7
+         }
+        bullet: {
+            type: BasicBulletType
+            speed: 4
+	    	trailColor: d9d9d9
+	    	trailLength: 2
+	    	trailWidth: 1
+            width: 4
+            height: 7
+            damage: 8
+        }
+    }
+]
