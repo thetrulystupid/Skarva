@@ -9,7 +9,7 @@ minWarmup: 0.99
 warmupMaintainTime: 120
 shootWarmupSpeed: 0.05
 outlineColor: 2a2e35
-reload: 150
+reload: 180
 shootCone: 5
 rotateSpeed: 2
 range: 220
@@ -21,8 +21,7 @@ researchCost: [
 ]
 ammoTypes: {
 	kanthal: {
-		ammoMultiplier: 4
-        reloadMultiplier: 0.70
+	ammoMultiplier: 4
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
         instantDisappear: true
