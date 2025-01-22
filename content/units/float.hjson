@@ -1,0 +1,67 @@
+type: mech
+name: Float
+description: Upgraded version of the Flutter. Saps nearby enemies - Ineffective against buildings.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.14
+outlineColor: 2a2e35
+speed: 1.4
+rotateSpeed: 3
+accel: 0.08
+groundLayer: 60
+health: 380
+engineSize: 0
+hitSize: 11
+engines: [
+  {
+    x: 0
+    y: -4.5
+    radius: 3.5
+    rotation: -90
+  }
+]
+itemCapacity: 25
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    x: 2
+    y: 1.5
+    mirror: true
+    alternate: false
+    reload: 48
+    rotate: false
+    shootSound: spark
+    bullet: {
+      type: LightningBulletType
+      lightningColor: dbbfff
+      lightningLength: 15
+      shootEffect: none
+      damage: 14
+      status: sapped
+      pierce: true
+        }
+    }
+    {
+    x: 2
+    y: 1.5
+    mirror: true
+    alternate: false
+    reload: 48
+    rotate: false
+    shootSound: spark
+    bullet: {
+      type: LightningBulletType
+      lightningColor: dbbfff
+      lightningLength: 15
+      shootEffect: none
+      damage: 14
+      status: sapped
+      pierce: true
+    }
+  }
+]
