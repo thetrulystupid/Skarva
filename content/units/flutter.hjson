@@ -9,11 +9,11 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.11
 outlineColor: 2a2e35
-speed: 1.7
+speed: 2.2
 rotateSpeed: 4
 accel: 0.06
 groundLayer: 60
-health: 110
+health: 140
 engineSize: 0
 hitSize: 8
 engines: [
@@ -39,7 +39,7 @@ weapons: [
     y: 1
     mirror: false
     alternate: false
-    reload: 37
+    reload: 22
     rotate: false
     shootSound: blast-support
     bullet: {
@@ -50,17 +50,14 @@ weapons: [
       trailColor: 665c9f
       lifetime: 15
       shootEffect: smoke
-      homingPower: 0.12
+      homingPower: 0.3
       homingDelay: 2
-      damage: 11
+      damage: 7
       pierceArmor: true
       width: 3
-      height: 7
+      height: 8
       trailWidth: 1
       trailLength: 3
-      pierce: false
-      shrinkX: 0
-      shrinkY: 0
     }
   }
 ]
