@@ -1,0 +1,78 @@
+type: mech
+name: Husked Arrow
+description: Terrifying, hijacked Arrow that now belongs to whatever parasite is living inside it now.
+speed: 0.55
+flying: false
+health: 1470
+hitSize: 8
+outlineColor: 2a2e35
+  weapons: [
+    {
+        x: -6
+        y: 0
+        name: husked-arrow-bloodgun
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 11
+        shootSound: husk-blood-spew-small
+        shoot: {
+        type: shootSpread
+        shots: 2
+        spread: 3
+        } 
+        bullet: {
+            type: BulletType
+            speed: 4
+            shootEffect: none
+            pierce: true
+            pierceBuilding: false
+            ammoMultiplier: 5
+	    	trailWidth: 1
+            width: 0.01
+            height: 0.01
+            damage: 29
+            lifetime: 11
+            despawnEffect: none
+            hittable: false
+            smokeEffect: {
+        type: ParticleEffect
+          particles: 7
+          length: 60
+          lifetime: 20
+          interp: circleOut
+          cone: 3
+          colorFrom: 8c5867
+          colorTo: 523039
+          sizeFrom: 7
+          sizeTo: 3
+        }
+        }
+    }
+    {
+        x: 1
+        y: 0
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 50
+        shootSound: husk-small-crunch
+        bullet: {
+            type: BulletType
+            speed: 2
+            shootEffect: none
+            smokeEffect: none
+            pierce: true
+            pierceBuilding: false
+            ammoMultiplier: 5
+	    	trailWidth: 1
+            width: 0.01
+            height: 0.01
+            damage: 34
+            lifetime: 11
+            despawnEffect: none
+            hittable: false
+            pierceArmor: true
+        }
+    }
+]
