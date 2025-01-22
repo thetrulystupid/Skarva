@@ -1,0 +1,59 @@
+type: mech
+name: Pike
+description: Large mech for pushing into defenses. Fires twin mortars at nearby enemies.
+speed: 0.6
+armor: 3
+flying: false
+health: 1020
+rotateSpeed: 3
+hitSize: 13
+outlineColor: 2a2e35
+  weapons: [
+    {
+        x: 10
+        y: 0
+        name: pike-mortar
+        mirror: true
+        alternate: false
+        rotate: false
+        reload: 150
+        recoil: 3
+        shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            speed: 4
+            trailColor: d9d9d9
+	    	trailLength: 2
+	    	trailWidth: 3
+            width: 8
+            height: 7
+            damage: 66
+            splashDamage: 66
+            splashDamageRadius: 44
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+        }
+    }
+    {
+        x: 5.5
+        y: -2
+        name: pike-topgun
+        mirror: true
+        alternate: true
+        rotate: true
+        rotationLimit: 90
+        reload: 28
+        recoil: 1.5
+        shootSound: shootBig
+        bullet: {
+            type: BasicBulletType
+            speed: 4
+            trailColor: d9d9d9
+	    	trailLength: 3
+	    	trailWidth: 2
+            width: 4
+            height: 5
+            damage: 16
+        }
+    }
+]
