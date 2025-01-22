@@ -10,7 +10,22 @@ isEnemy: false
 mineSpeed: 4
 mineTier: 1
 buildSpeed: 0.8
-itemCapacity: 25
+itemCapacity: 30
+engineSize: 0
+engines: [
+  {
+    x: 3
+    y: -1
+    radius: 2
+    rotation: -90
+  }
+  {
+    x: -3
+    y: -1
+    radius: 2
+    rotation: -90
+  }
+]
   weapons: [
     {
         x: 0
