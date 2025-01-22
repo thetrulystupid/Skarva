@@ -1,0 +1,45 @@
+type: legs
+name: Breaker
+description: Tough assault spider used for breaching walls.
+speed: 0.55
+flying: false
+health: 730
+armor: 4
+outlineColor: 2a2e35
+hitSize: 13
+minRange: 40
+legCount: 4
+legLength: 10
+legSpeed: 0.125
+legForwardScl: 0.44
+legExtension: -3
+legMoveSpace: 0.95
+  weapons: [
+    {
+        x: 0
+        y: -1.5
+        name: ruiner-cannon
+        mirror: false
+        alternate: false
+        rotate: true
+        rotationLimit: 60
+        reload: 180
+        recoil: 2
+        shootSound: breaker-branch-cannon
+        bullet: {
+            type: ArtilleryBulletType
+            speed: 4.5
+            trailColor: d9d9d9
+	    	trailLength: 4
+	    	trailWidth: 3
+            recoil: 1.25
+            width: 10
+            height: 9
+            damage: 42
+            splashDamage: 42
+            splashDamageRadius: 36
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+        }
+    }
+]
