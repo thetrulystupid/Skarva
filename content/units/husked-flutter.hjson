@@ -1,0 +1,70 @@
+type: mech
+name: Husked Flutter
+description: No longer as swift as it used to be. Can be hard to spot.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.18
+outlineColor: 2a2e35
+speed: 1.4
+rotateSpeed: 3
+accel: 0.04
+groundLayer: 60
+health: 330
+engineSize: 0
+hitSize: 8
+engines: [
+  {
+    x: 1.25
+    y: -3
+    radius: 2
+    rotation: -90
+  }
+  {
+    x: -1.25
+    y: -3
+    radius: 2
+    rotation: -90
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    x: -0.5
+    y: 1
+    mirror: false
+    alternate: false
+    reload: 69
+    rotate: false
+    shootSound: husk-blood-spew-small
+    inaccuracy: 9
+    shoot: {
+    shots: 3
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 3.5
+      frontColor: 8c5867
+      backColor: 6e3e4b
+      trailColor: 523039
+      lifetime: 40
+      shootEffect: none
+      homingPower: 0.22
+      homingDelay: 4
+      damage: 11
+      pierceArmor: true
+      width: 3
+      height: 5
+      trailWidth: 1
+      trailLength: 1
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+]
