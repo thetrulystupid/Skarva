@@ -1,0 +1,66 @@
+type: mech
+name: Flutter
+description: Swift and fragile hovercraft. Fires fast chaser rounds.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.11
+outlineColor: 2a2e35
+speed: 1.7
+rotateSpeed: 4
+accel: 0.06
+groundLayer: 60
+health: 110
+engineSize: 0
+hitSize: 8
+engines: [
+  {
+    x: 1.25
+    y: -3
+    radius: 2
+    rotation: -90
+  }
+  {
+    x: -1.25
+    y: -3
+    radius: 2
+    rotation: -90
+  }
+]
+itemCapacity: 10
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    x: 0
+    y: 1
+    mirror: false
+    alternate: false
+    reload: 37
+    rotate: false
+    shootSound: blast-support
+    bullet: {
+      type: MissileBulletType
+      speed: 6
+      frontColor: 665c9f
+      backColor: bf92f9
+      trailColor: 665c9f
+      lifetime: 15
+      shootEffect: smoke
+      homingPower: 0.12
+      homingDelay: 2
+      damage: 11
+      pierceArmor: true
+      width: 3
+      height: 7
+      trailWidth: 1
+      trailLength: 3
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+]
