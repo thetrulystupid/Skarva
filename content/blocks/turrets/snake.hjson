@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Snake
-description: Large long-range turret 
+description: Large long-range turret for picking off stronger targets. Upgrade to the Fang.
 size: 3
 targetAir: true
 targetGround: true
@@ -18,33 +18,35 @@ researchCost: [
   simple-frame/100
 ]
 ammoTypes: {
-	iron: {
+	aluminium: {
 		type: BasicBulletType
-		speed: 7.5,
-		damage: 63,
+		speed: 7,
+		damage: 52,
 		width: 6
 		height: 11
+		lifetime: 32
 		trailColor: d9d9d9
 		trailLength: 2
 		trailWidth: 1
-    casingEffect: casing2
+ 		casingEffect: casing2
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 4,
 		pierce: true
 		pierceCap: 4
-    pierceArmor: true
+  		pierceArmor: true
 	},
-	aluminium: {
+	palladium: {
 		type: BasicBulletType
-		speed: 11,
-		damage: 46,
+		speed: 8.5,
+		damage: 74,
 		width: 7
 		height: 14
-		trailColor: d9d9d9
+		lifetime: 24
+		trailColor: ff9d2b
 		trailLength: 5
 		trailWidth: 2
-    casingEffect: casing2
+    		casingEffect: casing2
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		reloadMultiplier: 0.6
