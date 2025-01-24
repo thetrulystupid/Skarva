@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Snake
+description: Large long-range turret 
+size: 3
+targetAir: true
+targetGround: true
+health: 630
+outlineColor: 2a2e35
+reload: 133
+shootCone: 4
+rotateSpeed: 2.5
+range: 390
+research: fang
+researchCost: [
+  iron/1100
+  chromium/1100
+  palladium/600
+  simple-frame/100
+]
+ammoTypes: {
+	iron: {
+		type: BasicBulletType
+		speed: 7.5,
+		damage: 63,
+		width: 6
+		height: 11
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+    casingEffect: casing2
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
+		ammoMultiplier: 4,
+		pierce: true
+		pierceCap: 4
+    pierceArmor: true
+	},
+	aluminium: {
+		type: BasicBulletType
+		speed: 11,
+		damage: 46,
+		width: 7
+		height: 14
+		trailColor: d9d9d9
+		trailLength: 5
+		trailWidth: 2
+    casingEffect: casing2
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
+		reloadMultiplier: 0.6
+		ammoMultiplier: 3,
+		pierce: true
+		pierceArmor: true
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -3
+    }
+  ]
+}
+requirements: [
+    iron/110
+    chromium/110
+    palladium/60
+    simple-frame/10
+]
+category: turret
+shootSound: medium-sniper
+squareSprite: false
