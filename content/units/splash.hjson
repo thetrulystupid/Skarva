@@ -14,15 +14,15 @@ itemCapacity: 30
 engineSize: 0
 engines: [
   {
-    x: 2
-    y: -3
-    radius: 1.2
+    x: 2.25
+    y: -4
+    radius: 1.25
     rotation: -90
   }
   {
-    x: -2
-    y: -3
-    radius: 1.2
+    x: -2.25
+    y: -4
+    radius: 1.25
     rotation: -90
   }
 ]
