@@ -1,0 +1,7 @@
+name: Palladium
+description: "A hard, malleable metal used in advanced walls and turrets."
+hardness: 1.4
+cost: 1.4
+color: cd6f34
+research: kanthal
+hiddenOnPlanets: [serpulo, erekir]
