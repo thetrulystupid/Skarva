@@ -41,17 +41,11 @@ weapons: [
     rotate: false
     shootSound: spark
     bullet: {
-      type: ContinuousFlameBulletType
-  length: 110
-  shootEffect: shootBig2
-  despawnEffect: blastExplosion
-  hitEffect: hitMeltdown
-  damageInterval: 12
-  damage: 22
-  width: 3.5
-  status: sapped
-  statusDuration: 90
-  colors: [665c9f, bf92f9]
+          type: ContinuousFlameBulletType
+          damage: 11
+          length: 80
+          width: 2
+          colors: [bf92f9, 665c9f]
         }
     }
 ]
