@@ -2,8 +2,8 @@ type: GenericCrafter
 name: Simple Frame Molder
 description: Melts large amounts of iron and turns them into simple frames.
 size: 3
-craftTime: 90
-itemCapacity: 30
+craftTime: 135
+itemCapacity: 20
 squareSprite: false
 research: {
    parent: kanthal-melter
@@ -18,7 +18,7 @@ researchCost: [
 ]
 consumes: {
   items: [
-    iron/10
+    iron/8
   ]
 }
 outputItem: simple-frame/1
