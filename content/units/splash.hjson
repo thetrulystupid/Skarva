@@ -2,26 +2,28 @@ type: flying
 flying: true
 name: Splash
 description: Agile drone equipped with a pressure washer. Can build and mine ores slowly.
-speed: 2.4
-health: 240
+speed: 3
+health: 180
 outlineColor: 2a2e35
 hitSize: 9
 isEnemy: false
-mineSpeed: 4
+drag: 0.18
+accel: 0.11
+mineSpeed: 5.5
 mineTier: 1
 buildSpeed: 0.8
 itemCapacity: 30
 engineSize: 0
 engines: [
   {
-    x: 2.25
-    y: -4
+    x: 2
+    y: -6
     radius: 1.25
     rotation: -90
   }
   {
-    x: -2.25
-    y: -4
+    x: -2
+    y: -6
     radius: 1.25
     rotation: -90
   }
@@ -47,7 +49,7 @@ engines: [
             status: wet
             statusDuration: 240
             width: 2
-            height: 4
+            height: 2
             damage: 3
             layer: 98
         }
