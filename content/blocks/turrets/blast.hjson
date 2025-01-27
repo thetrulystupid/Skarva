@@ -70,7 +70,7 @@ requirements: [
 	chromium/40
 ]
 category: turret
-shootSound: shotgun-small
+shootSound: shotgunSmall
 shoot: {
    shots: 8
 }
