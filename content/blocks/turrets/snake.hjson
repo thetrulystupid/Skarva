@@ -20,14 +20,14 @@ researchCost: [
 ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
-		speed: 7,
+		speed: 8,
 		damage: 52,
 		width: 6
 		height: 11
-		lifetime: 32
+		lifetime: 56
 		trailColor: d9d9d9
-		trailLength: 2
-		trailWidth: 1
+		trailLength: 5
+		trailWidth: 2
  		casingEffect: casing2
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
@@ -38,13 +38,13 @@ ammoTypes: {
 	},
 	palladium: {
 		type: BasicBulletType
-		speed: 8.5,
+		speed: 10,
 		damage: 74,
 		width: 7
 		height: 14
-		lifetime: 24
+		lifetime: 30
 		trailColor: ff9d2b
-		trailLength: 5
+		trailLength: 6
 		trailWidth: 2
     		casingEffect: casing2
 		shootEffect: shootBig,
