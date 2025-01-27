@@ -1,6 +1,6 @@
 type: legs
 name: Breaker
-description: Tough assault spider used for breaching walls.
+description: Tough assault spider for breaching walls.
 speed: 0.65
 flying: false
 health: 440
@@ -24,13 +24,13 @@ legMoveSpace: 1.1
         recoil: 1
         mirror: true
         alternate: true
-        shootSound: breaker-branch-cannon
+        shootSound: breakerBranchCannon
         bullet: {
             type: BasicBulletType
             speed: 3
             trailColor: d9d9d9
-	    	trailLength: 3
-	    	trailWidth: 2
+	    trailLength: 3
+	    trailWidth: 2
             recoil: 2
             width: 8
             height: 7
