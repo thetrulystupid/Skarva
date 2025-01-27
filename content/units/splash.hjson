@@ -55,3 +55,4 @@ engines: [
         }
     }
 ]
+immunities: [wet]
