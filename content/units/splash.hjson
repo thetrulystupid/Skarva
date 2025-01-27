@@ -7,8 +7,8 @@ health: 180
 outlineColor: 2a2e35
 hitSize: 9
 isEnemy: false
-drag: 0.26
-accel: 0.07
+drag: 0.33
+accel: 0.04
 mineSpeed: 4
 mineTier: 1
 buildSpeed: 0.8
