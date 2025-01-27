@@ -38,15 +38,20 @@ weapons: [
     y: 2
     mirror: true
     alternate: false
-    reload: 48
+    reload: 45
+    alwaysContinuous: true
+    continuous: true
+    shootCone: 60
     rotate: false
-    shootSound: spark
+    shootSound: torch
+    
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 11
+          damage: 13
+          flareLength: 1.2
           length: 80
           width: 2
-          colors: [bf92f9, 665c9f]
+          colors: [665c9f, bf92f9]
         }
     }
 ]
