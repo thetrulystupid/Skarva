@@ -45,12 +45,12 @@ engines: [
             liquid: water
             speed: 4.5
             lifetime: 22
-            knockback: 0.4
+            knockback: 0.7
             status: wet
-            statusDuration: 240
+            statusDuration: 360
             width: 2
             height: 2
-            damage: 3
+            damage: 4
             layer: 98
         }
     }
