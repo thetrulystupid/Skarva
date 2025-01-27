@@ -1,0 +1,4 @@
+type: OreBlock
+name: Palladium Ore
+itemDrop: palladium
+hardness: 1
