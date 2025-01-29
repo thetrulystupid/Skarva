@@ -1,6 +1,5 @@
 name: Simple Frame
 description: "Basic, but durable metal structuring used in more advanced buildings."
-hardness: 1.5
 cost: 1.65
 color: 796969
 research: {
