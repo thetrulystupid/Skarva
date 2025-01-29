@@ -11,16 +11,16 @@ outlineColor: 2a2e35
     {
         x: 8
         y: 0
-        name: arrow-burny-gun
+        name: quiver-flamer
         mirror: true
         alternate: false
         rotate: false
-        reload: 11
+        reload: 9
         shootSound: flame
         shoot: {
         type: shootSpread
         shots: 2
-        spread: 3
+        spread: 5
         } 
         bullet: {
             type: BulletType
