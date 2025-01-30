@@ -2,7 +2,7 @@ type: flying
 flying: true
 name: Splash
 description: Agile drone equipped with a pressure washer. Can build and mine ores slowly.
-speed: 4
+speed: 8
 health: 180
 outlineColor: 2a2e35
 hitSize: 9
