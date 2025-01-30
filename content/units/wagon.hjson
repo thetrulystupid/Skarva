@@ -11,6 +11,11 @@ groundLayer: 60
 health: 40
 engineSize: 0
 hitSize: 7
+research: drone-assembler
+researchCost: [
+  chromium/80
+  kanthal/30
+]
 engines: [
   {
     x: 0
