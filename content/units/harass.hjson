@@ -4,8 +4,8 @@ name: Harass
 description: Shoots nearby enemies. Very fragile.
 drag: 0.3
 outlineColor: 2a2e35
-speed: 4
-rotateSpeed: 2
+speed: 9
+rotateSpeed: 3
 accel: 0.04
 groundLayer: 60
 health: 90
@@ -30,14 +30,14 @@ weapons: [
     reload: 42
     shootCone: 6
     rotate: false
-    shootSound: shootSmall
     bullet: {
           type: BasicBulletType
           speed: 5.5
-	      	trailColor: d9d9d9
-	      	trailLength: 2
-	      	trailWidth: 1
-          damage: 22
+	  trailColor: d9d9d9
+	  trailLength: 2
+	  trailWidth: 1
+          damage: 27
+	  recoil: 0.6
           length: 5
           width: 3
         }
