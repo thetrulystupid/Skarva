@@ -4,7 +4,7 @@ name: Wagon
 description: Transports items via logic, otherwise just a glorified container. Very fast.
 drag: 0.7
 outlineColor: 2a2e35
-speed: 11
+speed: 18
 rotateSpeed: 6
 accel: 0.11
 groundLayer: 60
@@ -14,26 +14,26 @@ hitSize: 7
 engines: [
   {
     x: 0
-    y: -4
-    radius: 1
+    y: -3
+    radius: 1.5
     rotation: -90
   }
 {
     x: 0
-    y: 4
-    radius: 1
+    y: 3
+    radius: 1.5
     rotation: 90
   }
       {
-    x: 4
+    x: 3
     y: 0
-    radius: 1
+    radius: 1.5
     rotation: 0
   }
       {
-    x: -4
+    x: -3
     y: 0
-    radius: 1
+    radius: 1.5
     rotation: 180
   }
 ]
