@@ -1,12 +1,12 @@
 type: legs
-name: Breaker
-description: Tough assault spider for breaching walls.
+name: Rajaei
+description: Tough assault spider equipped with an artillery gun. Good for long-range engagements.
 speed: 0.65
 flying: false
-health: 440
-armor: 2
+health: 560
+armor: 3
 outlineColor: 2a2e35
-hitSize: 9
+hitSize: 11
 legCount: 4
 legLength: 7
 legSpeed: 0.14
@@ -17,13 +17,11 @@ legMoveSpace: 1.1
     {
         x: 0
         y: 0
-        mirror: true
-        alternate: true
+        mirror: false
+        alternate: false
         rotate: false
-        reload: 150
+        reload: 110
         recoil: 1
-        mirror: true
-        alternate: true
         shootSound: breakerBranchCannon
         bullet: {
             type: BasicBulletType
@@ -31,12 +29,12 @@ legMoveSpace: 1.1
             trailColor: d9d9d9
 	    trailLength: 3
 	    trailWidth: 2
-            recoil: 2
+            recoil: 1.5
             width: 8
             height: 7
-            damage: 22
-            splashDamage: 22
-            splashDamageRadius: 24
+            damage: 38
+            splashDamage: 38
+            splashDamageRadius: 36
             hitEffect: blastExplosion
             despawnEffect: blastExplosion
         }
