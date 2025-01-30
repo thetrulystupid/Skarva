@@ -18,13 +18,13 @@ engines: [
   {
     x: 1.75
     y: -5.25
-    radius: 1.25
+    radius: 1.5
     rotation: -90
   }
   {
     x: -1.75
     y: -5.25
-    radius: 1.25
+    radius: 1.5
     rotation: -90
   }
 ]
