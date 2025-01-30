@@ -1,0 +1,37 @@
+type: unitFactory
+name: Drone Assembler
+description: A basic unit factory that builds types of Drones for transport, attack or support.
+size: 2
+category: units
+requirements: [
+  iron/130
+  chromium/130
+  aluminium/80
+]
+  plans: [
+    {
+      unit: harass
+      requirements: [
+        iron/10
+        kanthal/4
+      ]
+      time: 480
+    }
+    {
+      unit: wagon
+      requirements: [
+        chromium/8
+        kanthal/3
+      ]
+      time: 480
+    }
+    {
+      unit: paramed
+      requirements: [
+        iron/8
+        chromium/4
+        kanthal/6
+      ]
+      time: 480
+    }
+]
