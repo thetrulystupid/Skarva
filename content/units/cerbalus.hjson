@@ -1,19 +1,19 @@
 type: legs
-name: Ruiner
-description: Large assault-class spider used for breaching defenses. Shoots far away enemies with an artillery cannon.
+name: Cerbalus
+description: Large assault spider for shooting down production lines out of turrets sights. Amazing for picking off threats at a safe distance.
 speed: 0.5
 flying: false
-health: 960
+health: 1040
 armor: 5
 outlineColor: 2a2e35
 hitSize: 13
 minRange: 55
-legCount: 4
-legLength: 10
-legSpeed: 0.125
-legForwardScl: 0.44
+legCount: 6
+legLength: 14
+legSpeed: 0.08
+legForwardScl: 0.57
 legExtension: -3
-legMoveSpace: 0.95
+legMoveSpace: 1.6
   weapons: [
     {
         x: 0
@@ -22,15 +22,15 @@ legMoveSpace: 0.95
         mirror: false
         alternate: false
         rotate: true
-        rotationLimit: 60
-        reload: 140
+        rotationLimit: 90
+        reload: 170
         recoil: 2
-        shootSound: breaker-branch-cannon
+        shootSound: breakerBranchCannon
         bullet: {
             type: ArtilleryBulletType
-            speed: 4
+            speed: 5.5
             trailColor: d9d9d9
-	    trailLength: 4
+	    trailLength: 5
 	    trailWidth: 3
             recoil: 1
             width: 10
