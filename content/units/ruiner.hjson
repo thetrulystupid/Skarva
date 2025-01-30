@@ -3,7 +3,7 @@ name: Ruiner
 description: Large assault-class spider used for breaching defenses. Shoots far away enemies with an artillery cannon.
 speed: 0.5
 flying: false
-health: 840
+health: 960
 armor: 5
 outlineColor: 2a2e35
 hitSize: 13
@@ -30,13 +30,13 @@ legMoveSpace: 0.95
             type: ArtilleryBulletType
             speed: 4
             trailColor: d9d9d9
-	    	trailLength: 4
-	    	trailWidth: 3
+	    trailLength: 4
+	    trailWidth: 3
             recoil: 1
             width: 10
             height: 9
-            damage: 49
-            splashDamage: 49
+            damage: 63
+            splashDamage: 63
             splashDamageRadius: 42
             hitEffect: blastExplosion
             despawnEffect: blastExplosion
