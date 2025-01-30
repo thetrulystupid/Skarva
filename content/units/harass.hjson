@@ -1,0 +1,45 @@
+type: flying
+flying: true
+name: Harass
+description: Shoots nearby enemies. Very fragile.
+drag: 0.3
+outlineColor: 2a2e35
+speed: 4
+rotateSpeed: 2
+accel: 0.04
+groundLayer: 60
+health: 90
+armor: 3
+engineSize: 0
+hitSize: 6
+engines: [
+  {
+    x: 0
+    y: -3.5
+    radius: 1
+    rotation: -90
+  }
+]
+itemCapacity: 0
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    alternate: false
+    reload: 42
+    shootCone: 6
+    rotate: false
+    shootSound: shootSmall
+    bullet: {
+          type: BasicBulletType
+          speed: 5.5
+	      	trailColor: d9d9d9
+	      	trailLength: 2
+	      	trailWidth: 1
+          damage: 22
+          length: 5
+          width: 3
+        }
+    }
+]
