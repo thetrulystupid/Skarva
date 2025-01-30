@@ -2,7 +2,7 @@ type: flying
 flying: true
 name: Paramed
 description: Fragile support drone that doesn't deal damage. Heals buildings slowly.
-speed: 3.5
+speed: 7
 health: 60
 controller: RepairAI
 commands: [move, repair, rebuild, assist]
