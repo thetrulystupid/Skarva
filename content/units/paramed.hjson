@@ -1,0 +1,59 @@
+type: flying
+flying: true
+name: Paramed
+description: Fragile support drone that doesn't deal damage. Heals buildings slowly.
+speed: 3.5
+health: 60
+controller: RepairAI
+commands: [move, repair, rebuild, assist]
+outlineColor: 2a2e35
+hitSize: 6
+isEnemy: false
+drag: 0.28
+accel: 0.09
+mineSpeed: 1.5
+mineTier: 1
+buildSpeed: 0.05
+itemCapacity: 0
+research: drone-assembler
+researchCost: [
+  iron/30
+]
+engineSize: 0
+engines: [
+  {
+    x: 0
+    y: -2
+    radius: 1.5
+    rotation: -90
+  }
+]
+  weapons: [
+    {
+        x: 0
+        y: 0
+        name: paramed-gun
+        layerOffset: -1
+        recoil: 1.6
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 36
+        shootSound: shootHeal
+        bullet: {
+            despawnEffect: none
+            hitEffect: none
+            type: BasicBulletType
+            speed: 3.5
+            knockback: 0.3
+            healPercent: 0.5
+            collidesTeam: true
+            frontColor: 37946e
+            backColor: 52c294
+            width: 3
+            height: 4
+            damage: 0
+            layer: 98
+        }
+    }
+]
