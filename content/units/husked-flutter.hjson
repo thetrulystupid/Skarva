@@ -9,11 +9,11 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.18
 outlineColor: 2a2e35
-speed: 4.2
+speed: 2.1
 rotateSpeed: 3
 accel: 0.04
 groundLayer: 60
-health: 330
+health: 280
 engineSize: 0
 hitSize: 8
 engines: [
