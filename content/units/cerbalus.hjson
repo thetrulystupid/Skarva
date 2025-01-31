@@ -28,13 +28,13 @@ legMoveSpace: 1.6
         shootSound: breakerBranchCannon
         bullet: {
             type: ArtilleryBulletType
-            speed: 5.5
+            speed: 6.5
             trailColor: d9d9d9
 	    trailLength: 5
 	    trailWidth: 3
-            recoil: 1
-            width: 10
-            height: 9
+            recoil: 2
+            width: 7
+            height: 11
             damage: 63
             splashDamage: 63
             splashDamageRadius: 42
