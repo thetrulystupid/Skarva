@@ -9,7 +9,7 @@ outlineColor: 2a2e35
 hitSize: 13
 minRange: 55
 legCount: 6
-legLength: 14
+legLength: 12
 legSpeed: 0.08
 legForwardScl: 0.57
 legExtension: -3
@@ -17,7 +17,7 @@ legMoveSpace: 1.6
   weapons: [
     {
         x: 0
-        y: -1.5
+        y: -2.5
         name: cerbalus-cannon
         mirror: false
         alternate: false
