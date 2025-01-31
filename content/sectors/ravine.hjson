@@ -1,0 +1,16 @@
+captureWave: 10
+isWaves: true
+planet: skarva
+sector: 29
+research: {
+  parent: calidity
+  objectives: [
+    {
+      type: SectorComplete
+      preset: calidity
+    }
+  ]
+}
+difficulty: 3
+localizedName: Ravine
+description: High concentration of silt and tainted water detected here. /nMechs and crawlers are ineffective here, majority of enemy force is Flutter-Class hovercraft.
