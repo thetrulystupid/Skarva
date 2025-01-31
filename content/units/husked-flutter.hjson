@@ -42,9 +42,9 @@ weapons: [
     reload: 69
     rotate: false
     shootSound: husk-blood-spew-small
-    inaccuracy: 9
+    inaccuracy: 11
     shoot: {
-    shots: 3
+    shots: 2
     }
     bullet: {
       type: MissileBulletType
