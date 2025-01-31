@@ -1,0 +1,83 @@
+type: ItemTurret
+name: Split
+description: Fast anti-air turret with poor accuracy. Relies on it's powerful homing.
+size: 2
+targetAir: true
+targetGround: false
+health: 840
+outlineColor: 2a2e35
+inaccuracy: 40
+reload: 18
+shootCone: 60
+rotateSpeed: 4.5
+range: 280
+research: {
+  parent: blast
+  objectives: [
+    {
+      type: OnSector
+      preset: ravine
+    }
+  ]
+}
+researchCost: [
+  chromium/1300
+  kanthal/1800
+]
+ammoTypes: {
+	kanthal: {
+		type: BasicBulletType
+		speed: 9,
+		damage: 12,
+		width: 4
+		height: 11
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+		lifetime: 27
+		shootEffect: shootBigColor,
+    frontColor: bf92f9
+    backColor: 665c9f
+    homingPower: 0.21
+    homingDelay: 14
+    homingRange: 67
+    shootColor: 665c9f
+		smokeEffect: none,
+		ammoMultiplier: 5,
+	},
+	palladium: {
+		type: BasicBulletType
+		speed: 7.5,
+		damage: 27,
+		width: 6
+		height: 9
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+		shootEffect: shootBigColor,
+    frontColor: ff9d2b
+    backColor: cd6f34
+    homingPower: 0.63
+    homingDelay: 9
+    homingRange: 36
+    shootColor: 9a3333
+		smokeEffect: none,
+		ammoMultiplier: 3,
+    reloadMultiplier: 0.67
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+}
+requirements: [
+	chromium/130
+  kanthal/180
+]
+category: turret
+shootSound: smite
+squareSprite: false
+  shoot: {
+   shots: 3
+}
+velocityRnd: 0.36
