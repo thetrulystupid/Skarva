@@ -8,7 +8,7 @@ armor: 3
 outlineColor: 2a2e35
 hitSize: 11
 legCount: 6
-legLength: 10
+legLength: 9
 legSpeed: 0.10
 legForwardScl: 0.57
 legExtension: -2
