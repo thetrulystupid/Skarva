@@ -6,9 +6,9 @@ targetAir: true
 targetGround: false
 health: 840
 outlineColor: 2a2e35
-inaccuracy: 40
+inaccuracy: 30
 reload: 18
-shootCone: 60
+shootCone: 45
 rotateSpeed: 4.5
 range: 280
 research: {
@@ -78,6 +78,6 @@ category: turret
 shootSound: smite
 squareSprite: false
   shoot: {
-   shots: 3
+   shots: 2
 }
 velocityRnd: 0.36
