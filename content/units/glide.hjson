@@ -13,14 +13,14 @@ engineSize: 0
 hitSize: 14
 engines: [
   {
-    x: 5
-    y: -6.5
+    x: 6
+    y: -7
     radius: 3
     rotation: -90
   }
   {
-    x: -5
-    y: -6.5
+    x: -6
+    y: -7
     radius: 3
     rotation: -90
   }
@@ -46,7 +46,7 @@ weapons: [
     shootSound: torch
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 9
+          damage: 11
           flareLength: 8
           length: 80
           width: 5
