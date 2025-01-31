@@ -1,7 +1,7 @@
 type: Floor
 name: Mineral Water
 variants: 3
-speedMultiplier: 0.8
+speedMultiplier: 0.67
 isLiquid: true
 liquidDrop: liquid-mineral-water
 cacheLayer: water
