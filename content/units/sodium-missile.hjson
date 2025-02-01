@@ -21,7 +21,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       ammoMultiplier: 3
-      splashDamage: 32
+      splashDamage: 34
       splashDamageRadius: 52
       status: burning
       statusDuration: 420
