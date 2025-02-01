@@ -6,9 +6,9 @@ targetAir: true
 targetGround: false
 health: 840
 outlineColor: 2a2e35
-inaccuracy: 30
-reload: 18
-shootCone: 45
+inaccuracy: 24
+reload: 11
+shootCone: 36
 rotateSpeed: 4.5
 shootY: -1.5
 range: 280
@@ -29,7 +29,7 @@ ammoTypes: {
 	kanthal: {
 		type: BasicBulletType
 		speed: 9,
-		damage: 12,
+		damage: 8,
 		width: 4
 		height: 11
 		trailColor: d9d9d9
@@ -49,7 +49,7 @@ ammoTypes: {
 	palladium: {
 		type: BasicBulletType
 		speed: 7.5,
-		damage: 27,
+		damage: 21,
 		width: 6
 		height: 9
 		trailColor: d9d9d9
@@ -76,7 +76,7 @@ requirements: [
   kanthal/180
 ]
 category: turret
-shootSound: shootSmite
+shootSound: laserShoot
 squareSprite: false
   shoot: {
    shots: 2
