@@ -1,0 +1,42 @@
+type: HeatProducer
+name: Sodium Soaker
+description: Soaks sodium in a vat of water causing it to react. Produces a small amount of heat.
+size: 2
+heatOutput: 2
+craftTime: 45
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: ff8e61
+    }
+  ]
+}
+consumes: {
+  items: [
+    sodium/2
+  ]
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.03
+category: crafting
+research: core-droplet
+requirements: [
+  chromium/30
+  iron/40
+]
