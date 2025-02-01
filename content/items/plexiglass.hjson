@@ -1,0 +1,7 @@
+name: Plexiglass
+description: "A malleable, durable form of glass, used in pipes, solar panels and bulletproof walls."
+hardness: 1
+cost: 1.3
+color: 96aee6
+research: kanthal
+hiddenOnPlanets: [serpulo, erekir]
