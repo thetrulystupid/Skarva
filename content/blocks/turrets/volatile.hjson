@@ -28,19 +28,36 @@ shoot: {
 research: boil
 ammoTypes: {
 	kanthal: {
-		type: ArtilleryBulletType
-            speed: 2.5
+	    type: ArtilleryBulletType
+            speed: 3
             trailColor: d9d9d9
-	    	trailLength: 3
-	    	trailWidth: 4
+	    trailLength: 3
+	    trailWidth: 4
             width: 8
             height: 10
             damage: 48
             splashDamage: 48
-            splashDamageRadius: 44
+            splashDamageRadius: 36
             hitEffect: blastExplosion
             despawnEffect: blastExplosion
-		    ammoMultiplier: 4,
+	    ammoMultiplier: 4,
+	},
+	sodium: {
+	    type: ArtilleryBulletType
+            speed: 2
+            trailColor: ad81be
+	    trailLength: 3
+	    trailWidth: 5
+            width: 11
+            height: 8
+            damage: 36
+            splashDamage: 36
+            splashDamageRadius: 52
+            hitEffect: flakExplosionBig
+            despawnEffect: flakExplosionBig
+	    ammoMultiplier: 3,
+	    status: burning
+	    statusDuration: 480
 	},
 }
 drawer: {
