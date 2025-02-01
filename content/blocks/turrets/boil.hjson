@@ -15,7 +15,7 @@ shootY: 0
 research: {
    parent: fang
    objectives: [
-      atmospheric-heater
+      sodium-soaker
    ]
 }
 researchCost: [
@@ -36,8 +36,8 @@ drawer: {
   type: DrawTurret
   basePrefix: skar-
 }
-heatRequirement: 5
-maxHeatEfficiency: 1
+heatRequirement: 2
+maxHeatEfficiency: 1.5
 requirements: [
     iron/85
 	chromium/110
