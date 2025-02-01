@@ -1,0 +1,9 @@
+name: Sodium
+description: "A volatile, soft and reactive metal used in explosive ammunition and heat generation."
+hardness: 1
+cost: 1.65
+color: ffd8fc
+research: chromium
+explosiveness: 0.15
+flammability: 0.5
+hiddenOnPlanets: [serpulo, erekir]
