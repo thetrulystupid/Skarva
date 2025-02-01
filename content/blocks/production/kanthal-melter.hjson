@@ -3,7 +3,7 @@ name: Kanthal Melter
 description: Melts Chromium and Iron and turns them into Kanthal. Slow and inefficient.
 size: 3
 craftTime: 75
-heatRequirement: 6
+heatRequirement: 4
 maxEfficiency: 1
 squareSprite: false
 outputItem: kanthal/1
