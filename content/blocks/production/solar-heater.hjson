@@ -1,19 +1,20 @@
 type: HeatProducer
-name: Atmospheric Heater
-description:  Produces a small amount of heat passively. Inefficient and expensive.
+name: Solar Heater
+description:  Produces a small amount of heat passively. Space-efficient but expensive.
 size: 1
 category: crafting
 squareSprite: false
 rotate: true
-research: chromium
-research: core-droplet
+research: sodium-heater
 requirements: [
-  chromium/90
+  chromium/30
+  plexiglass/20
 ]
 generateEffect: none
 heatOutput: 1
 researchCost: [
-  chromium/450
+  chromium/300
+  plexiglass/200
   ]
 drawer: {
   type: DrawMulti
