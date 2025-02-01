@@ -1,0 +1,43 @@
+type: HeatCrafter
+name: Plexiglass Crucible
+description: Melts chromium and mixes it with silt to produce Plexiglass.
+size: 2
+craftTime: 105
+heatRequirement: 3
+maxEfficiency: 1
+squareSprite: false
+outputItem: plexiglass/2
+research: kanthal-melter
+researchCost: [
+  aluminium/600
+  chromium/600
+  simple-frame/50
+]
+consumes: {
+  items: [
+    silt/2
+    chromium/2
+  ]
+}
+category: crafting
+requirements: [
+    chromium/60
+    aluminium/60
+    simple-frame/5
+]
+craftEffect: drillSteam
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
