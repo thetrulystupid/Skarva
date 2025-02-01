@@ -50,6 +50,8 @@ weapons: [
           flareLength: 8
           length: 80
           width: 5
+	        status: sapped
+	        statusDuration: 360
           colors: [665c9f, bf92f9]
         }
     }
