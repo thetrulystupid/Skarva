@@ -24,7 +24,7 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 8,
 		damage: 10,
-		lifetime: 42
+		lifetime: 21
 		width: 4
 		height: 8
 		trailColor: d9d9d9
@@ -40,7 +40,7 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 6,
 		damage: 4,
-		lifetime: 50
+		lifetime: 48
 		width: 5
 		height: 6
 		lifetime: 32
