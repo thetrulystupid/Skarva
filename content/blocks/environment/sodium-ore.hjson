@@ -1,4 +1,3 @@
 type: OreBlock
 name: Sodium Ore
 itemDrop: sodium
-variants: 2
