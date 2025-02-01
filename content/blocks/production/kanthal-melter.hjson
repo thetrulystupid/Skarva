@@ -10,7 +10,7 @@ outputItem: kanthal/1
 research: {
    parent: core-droplet
    objectives: [
-      atmospheric-heater
+      sodium-soaker
    ]
 }
 researchCost: [
