@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Split
-description: Fast anti-air turret with poor accuracy. Relies on it's powerful homing.
+description: Fast anti-air turret with poor accuracy. Relies on powerful homing.
 size: 2
 targetAir: true
 targetGround: false
@@ -10,6 +10,7 @@ inaccuracy: 30
 reload: 18
 shootCone: 45
 rotateSpeed: 4.5
+shootY: -1.5
 range: 280
 research: {
   parent: blast
@@ -63,7 +64,7 @@ ammoTypes: {
  		shootColor: 9a3333
 		smokeEffect: none,
 		ammoMultiplier: 3,
-    reloadMultiplier: 0.67
+   		reloadMultiplier: 0.67
 	},
 }
 drawer: {
@@ -75,9 +76,9 @@ requirements: [
   kanthal/180
 ]
 category: turret
-shootSound: smite
+shootSound: shootSmite
 squareSprite: false
   shoot: {
    shots: 2
 }
-velocityRnd: 0.36
+velocityRnd: 0.44
