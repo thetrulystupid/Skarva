@@ -66,5 +66,5 @@ weapons: [
       statusDuration: 240
       pierce: true
       pierceCap: 3
-  }
-]
+   }
+}
