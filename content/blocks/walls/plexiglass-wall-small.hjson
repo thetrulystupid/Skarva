@@ -1,0 +1,12 @@
+type: Wall
+name: Bulletproof Wall
+description: Armored, fragile wall that protects structures.
+size: 1
+health: 380
+armor: 4
+research: core-droplet
+squareSprite: false
+requirements: [
+  plexiglass/11
+]
+category: defense
