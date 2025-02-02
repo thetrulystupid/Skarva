@@ -1,6 +1,6 @@
 type: mech
 name: Float
-description: Upgraded version of the Flutter. Saps nearby enemies - Ineffective against buildings.
+description: Upgrade to the Flutter. Zaps nearby blocks with sapping lightning.
 hovering: true
 hoverable: true
 shadowElevation: 0.1
@@ -9,11 +9,11 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.14
 outlineColor: 2a2e35
-speed: 1.4
+speed: 1.8
 rotateSpeed: 3
 accel: 0.08
 groundLayer: 60
-health: 380
+health: 460
 engineSize: 0
 hitSize: 11
 engines: [
@@ -33,7 +33,7 @@ weapons: [
     y: 1.5
     mirror: true
     alternate: false
-    reload: 48
+    reload: 66
     rotate: false
     shootSound: spark
     bullet: {
@@ -44,8 +44,6 @@ weapons: [
       damage: 14
       status: sapped
       statusDuration: 240
-      pierce: true
-      pierceCap: 3
         }
     }
     {
@@ -53,7 +51,7 @@ weapons: [
     y: 1.5
     mirror: true
     alternate: false
-    reload: 48
+    reload: 66
     rotate: false
     shootSound: spark
     bullet: {
@@ -64,7 +62,6 @@ weapons: [
       damage: 14
       status: sapped
       statusDuration: 240
-      pierce: true
-      pierceCap: 3
-   }
-}
+    }
+  }
+]
