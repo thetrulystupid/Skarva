@@ -6,6 +6,6 @@ health: 540
 research: iron-wall-large
 squareSprite: false
 requirements: [
-  kanthal/6
+  kanthal/8
 ]
 category: defense
