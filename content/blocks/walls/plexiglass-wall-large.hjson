@@ -1,0 +1,12 @@
+type: Wall
+name: Large Bulletproof Wall
+description: Large, heavily armored and fragile wall that protects structures.
+size: 2
+health: 1900
+armor: 9
+research: plexiglass-wall
+squareSprite: false
+requirements: [
+  plexiglass/44
+]
+category: defense
