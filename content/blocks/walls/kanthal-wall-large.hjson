@@ -1,23 +1,11 @@
 type: Wall
 name: Large Kanthal Wall
-description: Large wall made from Kanthal, burns enemies nearby on death.
+description: Not much to say about this block. Larger wall made of kanthal.
 size: 2
-health: 2400
+health: 2700
 research: kanthal-wall-small
 squareSprite: false
-destroyBullet: {
-    type: BulletType
-    speed: 0
-    lifetime: 0
-    collides: false
-    hittable: false
-    hitEffect: none
-    status: burning
-    splashDamage: 36
-    splashDamageRadius: 64
-    despawnSound: dullExplosion
-}
 requirements: [
-  kanthal/24
+  kanthal/32
 ]
 category: defense
