@@ -6,6 +6,6 @@ health: 1650
 research: iron-wall-small
 squareSprite: false
 requirements: [
-  iron/24
+  iron/32
 ]
 category: defense
