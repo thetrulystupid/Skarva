@@ -6,6 +6,6 @@ health: 330
 research: core-droplet
 squareSprite: false
 requirements: [
-  iron/6
+  iron/8
 ]
 category: defense
