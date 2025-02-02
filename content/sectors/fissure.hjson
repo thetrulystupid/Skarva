@@ -1,0 +1,16 @@
+captureWave: 10
+isWaves: true
+planet: skarva
+sector: 33
+research: {
+  parent: ravine
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ravine
+    }
+  ]
+}
+difficulty: 7
+localizedName: Fissure
+description: Very cramped sector with high amounts of resources. This challenge sector is optional for progression.
