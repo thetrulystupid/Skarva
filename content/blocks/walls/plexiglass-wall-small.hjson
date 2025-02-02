@@ -4,7 +4,7 @@ description: Armored, fragile wall that protects structures.
 size: 1
 health: 380
 armor: 4
-research: core-droplet
+research: iron-wall-large
 squareSprite: false
 requirements: [
   plexiglass/11
