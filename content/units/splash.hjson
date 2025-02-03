@@ -35,14 +35,17 @@ weapons: [
     mirror: false
     alternate: false
     reload: 45
+    shootStatus: slow
+    shootStatusDuration: 15
     alwaysContinuous: true
     continuous: true
     shootCone: 45
+    shootY: -2
     rotate: false
     shootSound: spray
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 2
+          damage: 5
           flareLength: 0
           length: 55
           width: 2
