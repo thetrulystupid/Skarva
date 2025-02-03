@@ -2,13 +2,13 @@ type: flying
 flying: true
 name: Splash
 description: Defends the Droplet core. Equipped with a boiling pressure washer, can also build and mine ores slowly.
-speed: 12
+speed: 14
 health: 180
 outlineColor: 2a2e35
-hitSize: 9
+hitSize: 7
 isEnemy: false
-drag: 0.17
-accel: 0.04
+drag: 0.09
+accel: 0.13
 mineSpeed: 4
 mineTier: 1
 buildSpeed: 0.8
@@ -45,7 +45,7 @@ weapons: [
     shootSound: spray
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 5
+          damage: 4
           flareLength: 0
           length: 55
           width: 2
