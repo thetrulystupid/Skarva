@@ -1,7 +1,7 @@
 type: flying
 flying: true
 name: Splash
-description: Agile drone equipped with a pressure washer. Can build and mine ores slowly.
+description: Defends the Droplet core. Equipped with a boiling pressure washer, can also build and mine ores slowly.
 speed: 12
 health: 180
 outlineColor: 2a2e35
@@ -28,30 +28,27 @@ engines: [
     rotation: -90
   }
 ]
-  weapons: [
-    {
-        x: 0
-        y: -1
-        mirror: false
-        alternate: false
-        rotate: false
-        reload: 4
-        inaccuracy: 3
-        shootSound: spray
-        bullet: {
-            despawnEffect: none
-            hitEffect: none
-            type: LiquidBulletType
-            liquid: water
-            speed: 4.5
-            lifetime: 22
-            knockback: 0.7
-            status: wet
-            statusDuration: 360
-            width: 2
-            height: 2
-            damage: 4
-            layer: 98
+weapons: [
+  {
+    x: 0
+    y: 2
+    mirror: false
+    alternate: false
+    reload: 45
+    alwaysContinuous: true
+    continuous: true
+    shootCone: 45
+    rotate: false
+    shootSound: spray
+    bullet: {
+          type: ContinuousFlameBulletType
+          damage: 2
+          flareLength: 0
+          length: 55
+          width: 2
+	        status: wet
+	        statusDuration: 180
+          colors: [665c9f, bf92f9]
         }
     }
 ]
