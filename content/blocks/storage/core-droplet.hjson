@@ -2,13 +2,13 @@ type: CoreBlock
 name: Core: Droplet
 description: The most important building, if this dies, the sector is lost. Stores a small amount of items.
 requirements: [
-  iron/1700
+  iron/1200
 ]
 isFirstTier: true
-size: 3
+size: 4
 unitType: splash
 squareSprite: false
-health: 1400
+health: 1100
 itemCapacity: 2000
 unitCapModifier: 8
 alwaysUnlocked: true
