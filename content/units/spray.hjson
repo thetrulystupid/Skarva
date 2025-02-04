@@ -54,8 +54,8 @@ weapons: [
         }
     }
     {
-    x: -0.5
-    y: 4.1
+    x: -2.5
+    y: -2
     reload: 22
     mirror: true
     alternate: false
@@ -65,9 +65,7 @@ weapons: [
       type: BasicBulletType
       speed: 3
       lifetime: 38
-      damage: 7
-      splashDamage: 7
-      splashDamageRadius: 14
+      damage: 17
       weaveMag: 8
       weaveScale: 6
       frontColor: c1ddff
@@ -78,7 +76,7 @@ weapons: [
       height: 9
       trailWidth: 1.5
       trailLength: 4
-      buildingDamageMultiplier: 0.5
+      buildingDamageMultiplier: 0.25
     }
 ]
 immunities: [wet]
