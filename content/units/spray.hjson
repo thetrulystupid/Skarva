@@ -65,8 +65,6 @@ weapons: [
         bullet: {
             type: BasicBulletType
             speed: 3
-  	    weaveMag: 4
-  	    weaveScale: 3
    	    frontColor: c1ddff
     	    backColor: 96aee6
    	    trailColor: c1ddff
