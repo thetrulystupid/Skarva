@@ -47,6 +47,7 @@ weapons: [
           type: ContinuousFlameBulletType
           damage: 4
           flareLength: 0
+	  hitEffect: hitLiquid
           length: 55
           width: 1
 	  status: wet
