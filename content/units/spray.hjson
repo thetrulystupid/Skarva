@@ -57,12 +57,17 @@ weapons: [
         }
     }
     {
-        x: 4
+        x: 0
         y: -1
         mirror: true
         alternate: false
         rotate: false
         reload: 44
+        shoot: {
+	  type: ShootHelix
+          shots: 2
+          shotDelay: 7
+         }
         bullet: {
             type: BasicBulletType
             speed: 2.5
