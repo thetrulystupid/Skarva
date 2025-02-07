@@ -78,5 +78,5 @@ weapons: [
       trailLength: 4
       buildingDamageMultiplier: 0.25
     }
-]
+}
 immunities: [wet]
