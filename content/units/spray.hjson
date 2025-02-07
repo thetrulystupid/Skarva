@@ -53,6 +53,7 @@ weapons: [
 	status: wet
 	statusDuration: 240
         colors: [96aee6, c1ddff, ffffff]
+	buildingDamageMultiplier: 0.75
         }
     }
     {
@@ -78,6 +79,7 @@ weapons: [
             damage: 17
             status: scratched
             statusDuration: 360
+	    buildingDamageMultiplier: 0.5
         }
     }
 ]
