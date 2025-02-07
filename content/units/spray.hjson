@@ -54,28 +54,5 @@ weapons: [
           colors: [96aee6, c1ddff, ffffff]
 	  buildingDamageMultiplier: 0.85
         }
-    }
-    {
-        x: 4
-        y: -3.5
-        mirror: true
-        alternate: false
-        rotate: false
-        reload: 22
-        bullet: {
-            type: BasicBulletType
-            speed: 3
-   	    frontColor: c1ddff
-    	    backColor: 96aee6
-   	    trailColor: c1ddff
-            hitSound: none
-	    lifetime: 31
-            width: 5
-            height: 8
-	    trailWidth: 2
-	    trailLength: 4
-            damage: 17
-	    buildingDamageMultiplier: 0.5
-     }
 }
 immunities: [wet]
