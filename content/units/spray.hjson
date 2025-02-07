@@ -2,7 +2,7 @@ type: flying
 flying: true
 name: Spray
 description: Defends the Puddle core. Equipped with a boiling pressure washer and helix blaster. Can build and mine ores slowly.
-speed: 3.75
+speed: 3.25
 health: 210
 outlineColor: 2a2e35
 hitSize: 9
