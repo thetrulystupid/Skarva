@@ -68,10 +68,11 @@ weapons: [
    	    frontColor: c1ddff
     	    backColor: 96aee6
    	    trailColor: c1ddff
-            weaveMag: 2
-            weaveScale: 8
+            weaveMag: 4
+            weaveScale: 4
 	    trailLength: 6
 	    trailWidth: 1
+	    lifetime: 31
             width: 4
             height: 8
             damage: 17
