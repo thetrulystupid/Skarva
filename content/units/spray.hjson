@@ -57,21 +57,21 @@ weapons: [
     }
     {
         x: 4
-        y: -2
+        y: -1
         mirror: true
         alternate: false
         rotate: false
         reload: 55
         bullet: {
             type: BasicBulletType
-            speed: 3
+            speed: 4
    	    frontColor: c1ddff
     	    backColor: 96aee6
    	    trailColor: c1ddff
-            weaveMag: 4.5
-            weaveScale: 6
-	    trailLength: 4
-	    trailWidth: 2
+            weaveMag: 2
+            weaveScale: 8
+	    trailLength: 6
+	    trailWidth: 1
             width: 4
             height: 8
             damage: 17
