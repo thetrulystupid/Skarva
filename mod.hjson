@@ -1,6 +1,6 @@
-name: "skartest"
+name: "skarva"
 description: Generic test mod wow
 author: "__rag_."
 minGameVersion: 146
-version: "0.2"
+version: "0.7"
 displayName: Skarva Test Mod"
