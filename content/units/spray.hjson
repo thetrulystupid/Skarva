@@ -61,10 +61,10 @@ weapons: [
         mirror: true
         alternate: false
         rotate: false
-        reload: 55
+        reload: 44
         bullet: {
             type: BasicBulletType
-            speed: 4
+            speed: 2.5
    	    frontColor: c1ddff
     	    backColor: 96aee6
    	    trailColor: c1ddff
