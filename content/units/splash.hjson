@@ -48,7 +48,7 @@ weapons: [
           damage: 4
           flareLength: 0
           length: 55
-          width: 2
+          width: 1.5
 	  status: wet
 	  statusDuration: 180
           colors: [96aee6, c1ddff, ffffff]
