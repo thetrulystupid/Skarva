@@ -78,7 +78,7 @@ requirements: [
  	kanthal/180
 ]
 category: turret
-shootSound: laserShoot
+shootSound: splitshoot
 squareSprite: false
   shoot: {
    shots: 2
