@@ -6,11 +6,11 @@ targetAir: true
 targetGround: false
 health: 840
 outlineColor: 2a2e35
-inaccuracy: 24
-reload: 11
-shootCone: 36
-rotateSpeed: 4.5
-shootY: -1.5
+inaccuracy: 20
+reload: 19
+shootCone: 30
+rotateSpeed: 4
+shootY: -0.75
 range: 280
 research: {
   parent: blast
@@ -26,43 +26,45 @@ researchCost: [
   kanthal/1800
 ]
 ammoTypes: {
-	kanthal: {
+	sodium: {
 		type: BasicBulletType
 		speed: 9,
-		damage: 8,
+		damage: 6,
 		width: 4
 		height: 11
-		trailColor: d9d9d9
+		trailColor: ffd8fc
 		trailLength: 2
 		trailWidth: 1
 		lifetime: 27
 		shootEffect: shootBigColor,
-   		frontColor: bf92f9
-  		backColor: 665c9f
-  		homingPower: 0.21
+		shootColor: ffd8fc
+   		frontColor: f4afef
+  		backColor: ad81be
+  		homingPower: 0.24
   		homingDelay: 14
-  		homingRange: 67
-   		shootColor: 665c9f
+  		homingRange: 44
 		smokeEffect: none,
 		ammoMultiplier: 5,
 	},
-	palladium: {
+	aluminium: {
 		type: BasicBulletType
 		speed: 7.5,
-		damage: 21,
-		width: 6
-		height: 9
-		trailColor: d9d9d9
+		damage: 13,
+		width: 5
+		height: 14
+		trailColor: c6c6c6
 		trailLength: 3
-		trailWidth: 2
+		trailWidth: 1.5
 		shootEffect: shootBigColor,
-  		frontColor: ff9d2b
- 		backColor: cd6f34
-  		homingPower: 0.63
+  		frontColor: 8c8c8c
+ 		backColor: 575757
+  		homingPower: 0.36
  		homingDelay: 9
- 		homingRange: 36
- 		shootColor: 9a3333
+ 		homingRange: 55
+ 		shootColor: c6c6c6
 		smokeEffect: none,
+		pierce: true
+		pierceCap: 1
 		ammoMultiplier: 3,
    		reloadMultiplier: 0.67
 	},
@@ -73,7 +75,7 @@ drawer: {
 }
 requirements: [
 	chromium/130
-  kanthal/180
+ 	kanthal/180
 ]
 category: turret
 shootSound: laserShoot
@@ -81,4 +83,4 @@ squareSprite: false
   shoot: {
    shots: 2
 }
-velocityRnd: 0.44
+velocityRnd: 0.22
