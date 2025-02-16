@@ -1,0 +1,27 @@
+  type: ShockMine
+  name: Shrapnel Mine
+  description: Explodes when stepped on, scattering bits of shrapnel everywhere. Weak against armor.
+  hasShadow: false
+  health: 60
+  damage: 11
+  tileDamage: 60
+  tendrils: 0
+  category: effect
+  research: core-droplet
+  bullet: {
+    type: BasicBulletType
+    damage: 11
+    width: 1
+    height: 3
+    speed: 5
+    killShooter: true
+    status: scratched
+    statusDuration: 9000
+  }
+  requirements: [
+    sodium/20
+    aluminium/15
+  ]
+shoot: {
+   shots: 11
+}
