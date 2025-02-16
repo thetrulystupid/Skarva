@@ -2,9 +2,9 @@
   name: Shrapnel Mine
   description: Explodes when stepped on, scattering bits of shrapnel everywhere. Weak against armor.
   hasShadow: false
-  health: 60
+  health: 70
   damage: 11
-  tileDamage: 60
+  tileDamage: 30
   tendrils: 0
   category: effect
   research: core-droplet
