@@ -175,5 +175,9 @@ itemWhitelist: [
   "kanthal",
   "silt",
   "aluminium",
-  "simple-frame"
+  "simple-frame",
+  "sodium",
+  "sand",
+  "palladium",
+  "plexiglass"
 ]
