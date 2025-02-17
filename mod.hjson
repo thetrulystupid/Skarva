@@ -1,6 +1,6 @@
 name: "skartest"
-description: Generic test mod wow
+description: Generic planet mod inspired by Asthosus and Flameout as weird as it sounds. You'll see why later.
 author: "__rag_."
 minGameVersion: 146
-version: "0.7"
-displayName: Skarva Test Mod"
+version: "0.8"
+displayName: Skarva"
