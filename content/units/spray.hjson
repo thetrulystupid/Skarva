@@ -45,7 +45,7 @@ weapons: [
     shootSound: spray
     bullet: {
         type: ContinuousFlameBulletType
-        damage: 7
+        damage: 6
         flareLength: 0
         hitEffect: hitLiquid
         length: 70
@@ -81,7 +81,7 @@ weapons: [
 	    lifetime: 31
             width: 4
             height: 8
-            damage: 17
+            damage: 9
             status: scratched
             statusDuration: 360
 	    buildingDamageMultiplier: 0.5
