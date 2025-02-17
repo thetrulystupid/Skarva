@@ -1,0 +1,6 @@
+type: Floor
+name: Cracked Shale
+variants: 3
+attributes: {
+   tar: 0.1111
+}
