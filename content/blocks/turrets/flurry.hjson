@@ -6,11 +6,11 @@ targetAir: true
 targetGround: true
 health: 990
 outlineColor: 2a2e35
-inaccuracy: 4
-reload: 22
-shootCone: 6
+inaccuracy: 6
+reload: 17
+shootCone: 9
 rotateSpeed: 2.5
-range: 210
+range: 195
 research: blast
 researchCost: [
   iron/1100
@@ -24,7 +24,7 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 4,
 		damage: 14,
-		width: 5
+		width: 6.5
 		height: 11
 		trailColor: d9d9d9
 		trailLength: 3
@@ -34,13 +34,13 @@ ammoTypes: {
 		ammoMultiplier: 4,
 		pierce: true
 		pierceCap: 1
-    reloadMultiplier: 0.7
+   		reloadMultiplier: 0.7
 	},
 	aluminium: {
 		type: BasicBulletType
 		speed: 5.5,
 		damage: 22,
-		width: 6.5
+		width: 8
 		height: 12
 		trailColor: d9d9d9
 		trailLength: 5.5
@@ -51,6 +51,11 @@ ammoTypes: {
 		pierce: true
 		pierceCap: 2
 	},
+}
+shoot: {
+  type: ShootAlternate
+  spread: 7
+  shotDelay: 2
 }
 drawer: {
   type: DrawTurret
