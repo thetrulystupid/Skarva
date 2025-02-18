@@ -1,0 +1,68 @@
+type: ItemTurret
+name: Flurry
+description: A simple high-penetration turret to keep enemies away.
+size: 3
+targetAir: true
+targetGround: true
+health: 990
+outlineColor: 2a2e35
+inaccuracy: 4
+reload: 22
+shootCone: 6
+rotateSpeed: 2.5
+range: 210
+research: blast
+researchCost: [
+  iron/1100
+  aluminium/600
+  chromium/1100
+  kanthal/900
+  simple-frame/150
+]
+ammoTypes: {
+	kanthal: {
+		type: BasicBulletType
+		speed: 4,
+		damage: 14,
+		width: 5
+		height: 11
+		trailColor: d9d9d9
+		trailLength: 3
+		trailWidth: 2
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
+		ammoMultiplier: 4,
+		pierce: true
+		pierceCap: 1
+    reloadMultiplier: 0.7
+	},
+	aluminium: {
+		type: BasicBulletType
+		speed: 5.5,
+		damage: 22,
+		width: 6.5
+		height: 12
+		trailColor: d9d9d9
+		trailLength: 5.5
+		trailWidth: 2.5
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
+		ammoMultiplier: 5,
+		pierce: true
+		pierceCap: 2
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+}
+requirements: [
+  iron/110
+  aluminium/60
+  chromium/110
+  kanthal/90
+  simple-frame/15
+]
+category: turret
+shootSound: shootBig
+squareSprite: false
