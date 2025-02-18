@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Simple Wire Drawer
+description: Melts moderate amounts of aluminium, pulls it through holes on wheels and turns them into simple wires.
+size: 3
+craftTime: 190
+itemCapacity: 20
+squareSprite: false
+research: {
+   parent: simple-frame-molder
+   objectives: [
+      aluminium
+   ]
+}
+researchCost: [
+  iron/900
+  aluminium/600
+  kanthal/700
+]
+consumes: {
+  items: [
+    aluminium/4
+  ]
+}
+outputItem: simple-wire/2
+category: crafting
+requirements: [
+    iron/90
+    aluminium/60
+    kanthal/70
+]
+craftEffect: none
+  
