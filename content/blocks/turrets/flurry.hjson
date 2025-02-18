@@ -28,7 +28,7 @@ ammoTypes: {
 		height: 11
 		trailColor: d9d9d9
 		trailLength: 3
-		trailWidth: 2
+		trailWidth: 1.5
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 4,
