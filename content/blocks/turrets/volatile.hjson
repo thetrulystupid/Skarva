@@ -103,6 +103,11 @@ requirements: [
     iron/220
     aluminium/90
 ]
+researchCost: [
+    kanthal/1400
+    iron/2200
+    aluminium/900
+]
 category: turret
 shootSound: artillery
 squareSprite: false
