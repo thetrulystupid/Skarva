@@ -5,7 +5,7 @@ color: 8c8c8c
 research: {
    parent: simple-frame
    objectives: [
-      simple-wire-cutter
+      simple-wire-drawer
    ]
 }
 hiddenOnPlanets: [serpulo, erekir]
