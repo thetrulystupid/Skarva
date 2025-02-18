@@ -19,8 +19,8 @@ research: {
    ]
 }
 researchCost: [
-  iron/550
-  chromium/700
+  iron/850
+  chromium/1100
 ]
 shootType: {
   type: LaserBulletType
@@ -40,7 +40,7 @@ heatRequirement: 2
 maxHeatEfficiency: 1.5
 requirements: [
     iron/85
-	chromium/110
+    chromium/110
 ]
 category: turret
 shootSound: boil-shoot
