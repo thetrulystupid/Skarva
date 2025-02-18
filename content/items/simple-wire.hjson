@@ -1,0 +1,11 @@
+name: Simple Wire
+description: "Basic, but durable metal wiring used in more advanced heat generation and units."
+cost: 1.7
+color: 8c8c8c
+research: {
+   parent: simple-frame
+   objectives: [
+      simple-wire-cutter
+   ]
+}
+hiddenOnPlanets: [serpulo, erekir]
