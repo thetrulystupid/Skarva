@@ -22,7 +22,7 @@ researchCost: [
 ammoTypes: {
 	chromium: {
 		type: BasicBulletType
-		speed: 6,
+		speed: 5,
 		damage: 10,
 		lifetime: 18
 		width: 4
@@ -38,7 +38,7 @@ ammoTypes: {
 	},
 	silt: {
 		type: BasicBulletType
-		speed: 4.5,
+		speed: 3.5,
 		damage: 4,
 		lifetime: 33
 		width: 5
@@ -76,6 +76,7 @@ shootSound: shotgunSmall
 shoot: {
    shots: 8
 }
+coolantMultiplier: 1.2
 coolant: {
   type: ConsumeCoolant
   allowGas: true
