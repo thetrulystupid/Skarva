@@ -1,0 +1,8 @@
+name: Cold Water
+description: A simple coolant made by cooling tainted water.
+effect: freezing
+boilPoint: 0.7
+color: 8d99df
+heatCapacity: 0.8
+gasColor: bbd4ff
+research: mineral-water
