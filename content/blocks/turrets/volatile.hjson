@@ -102,12 +102,20 @@ requirements: [
     kanthal/140
     iron/220
     aluminium/90
+    simple-frame/10
 ]
 researchCost: [
     kanthal/1400
     iron/2200
     aluminium/900
+    simple-frame/100
 ]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
 category: turret
 shootSound: artillery
 squareSprite: false
