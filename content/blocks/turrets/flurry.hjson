@@ -54,7 +54,7 @@ ammoTypes: {
 }
 shoot: {
   type: ShootAlternate
-  spread: 7
+  spread: 8.5
   shotDelay: 2
 }
 drawer: {
