@@ -56,6 +56,12 @@ requirements: [
     chromium/80
     kanthal/50
 ]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
 category: turret
 shootSound: shootBig
 squareSprite: false
