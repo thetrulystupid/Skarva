@@ -4,7 +4,7 @@ flying: true
 speed: 3.8
 physics: false
 lifetime: 67
-rotateSpeed: 0
+rotateSpeed: 3
 trailLength: 2
 useUnitCap: false
 drawCell: false
@@ -21,10 +21,10 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       ammoMultiplier: 3
-      splashDamage: 34
+      splashDamage: 29
       splashDamageRadius: 52
       status: burning
-      statusDuration: 420
+      statusDuration: 480
     }
   } 
 ]
