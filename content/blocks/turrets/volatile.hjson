@@ -110,6 +110,7 @@ researchCost: [
     aluminium/900
     simple-frame/100
 ]
+coolantMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
