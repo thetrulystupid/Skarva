@@ -56,6 +56,7 @@ requirements: [
     chromium/80
     kanthal/50
 ]
+coolantMultiplier: 1
 coolant: {
   type: ConsumeCoolant
   allowGas: true
