@@ -22,9 +22,9 @@ researchCost: [
 ammoTypes: {
 	chromium: {
 		type: BasicBulletType
-		speed: 8,
+		speed: 6,
 		damage: 10,
-		lifetime: 21
+		lifetime: 18
 		width: 4
 		height: 8
 		trailColor: d9d9d9
@@ -38,9 +38,9 @@ ammoTypes: {
 	},
 	silt: {
 		type: BasicBulletType
-		speed: 6,
+		speed: 4.5,
 		damage: 4,
-		lifetime: 48
+		lifetime: 33
 		width: 5
 		height: 6
 		lifetime: 32
