@@ -75,6 +75,13 @@ requirements: [
     palladium/60
     simple-frame/10
 ]
+coolantMultiplier: 0.9
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.35
+}
 category: turret
 shootSound: medium-sniper
 squareSprite: false
