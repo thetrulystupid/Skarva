@@ -1,0 +1,37 @@
+type: unitFactory
+name: Assault Fabricator
+description: A unit factory that outputs simple assault units.
+size: 3
+category: units
+research: drone-assembler
+researchCost: [
+  iron/2000
+  chromium/2000
+  kanthal/1200
+  aluminium/360
+]
+requirements: [
+  iron/200
+  chromium/200
+  kanthal/120
+  aluminium/120
+]
+  plans: [
+    {
+      unit: pin
+      requirements: [
+        iron/25
+        kanthal/15
+      ]
+      time: 1200
+    }
+    {
+      unit: rajaei
+      requirements: [
+        iron/30
+        kanthal/20
+        simple-frame/2
+      ]
+      time: 1560
+    }
+]
