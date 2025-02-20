@@ -13,7 +13,7 @@ research: {
    objectives: [
    {
       type: SectorComplete
-      preset: calidity
+      preset: ravine
       }
    ]
 }
