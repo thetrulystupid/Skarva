@@ -6,6 +6,11 @@ flying: false
 health: 210
 hitSize: 6
 outlineColor: 2a2e35
+research: assault-fabricator
+researchCost: [
+  iron/300
+  kanthal/200
+]
   weapons: [
     {
         x: 4
