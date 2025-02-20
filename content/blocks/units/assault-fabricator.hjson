@@ -28,17 +28,17 @@ requirements: [
     {
       unit: pin
       requirements: [
-        iron/25
-        kanthal/15
+        iron/30
+        kanthal/20
       ]
       time: 1200
     }
     {
       unit: rajaei
       requirements: [
-        iron/30
-        kanthal/20
-        simple-frame/2
+        iron/40
+        kanthal/25
+        simple-frame/5
       ]
       time: 1560
     }
