@@ -3,7 +3,15 @@ name: Assault Fabricator
 description: A unit factory that outputs simple assault units.
 size: 3
 category: units
-research: drone-assembler
+research: {
+  parent: drone-assembler
+  objectives: [
+    {
+      type: OnSector
+      preset: ravine
+    }
+  ]
+}
 researchCost: [
   iron/2000
   chromium/2000
