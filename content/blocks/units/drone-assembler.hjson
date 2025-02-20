@@ -49,3 +49,4 @@ requirements: [
       time: 480
     }
 ]
+squareSprite: false
