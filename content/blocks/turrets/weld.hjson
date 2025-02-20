@@ -1,0 +1,41 @@
+type: PowerTurret
+name: Weld
+description: Small, weak point laser turret for small outposts or cheap defense.
+size: 1
+targetAir: false
+targetGround: true
+health: 130
+outlineColor: 2a2e35
+inaccuracy: 0
+reload: 120
+shootCone: 2
+rotateSpeed: 1.5
+range: 130
+shootY: 0
+research: boil
+researchCost: [
+  iron/2000
+  kanthal/1500
+]
+shootType: {
+  type: PointLaserBulletType
+  colors: [c5787d, e29ca1, ffffff]
+  length: 130
+  damage: 7
+  buildingDamageMultiplier: 0.25
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+}
+heatRequirement: 2
+maxHeatEfficiency: 1
+requirements: [
+    iron/20
+    kanthal/15
+]
+category: turret
+shootSound: none
+loopSound: laserbeam
+loopSoundVolume: 0.4
+squareSprite: false
