@@ -1,0 +1,14 @@
+planet: skarva
+sector: 42
+research: {
+  parent: ravine
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ravine
+    }
+  ]
+}
+difficulty: 6
+localizedName: Storm
+description: Very open and decently defended sector owned by the Eclis. Research Assault Fabricators and Drone Assemblers to take out the enemy.
