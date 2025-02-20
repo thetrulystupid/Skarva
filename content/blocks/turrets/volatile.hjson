@@ -110,12 +110,12 @@ researchCost: [
     aluminium/900
     simple-frame/100
 ]
-coolantMultiplier: 0.5
+coolantMultiplier: 0.6
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.5
+  amount: 0.35
 }
 category: turret
 shootSound: artillery
