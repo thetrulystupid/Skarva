@@ -3,16 +3,24 @@ name: Drone Assembler
 description: A basic unit factory that builds types of Drones for transport, attack or support.
 size: 2
 category: units
-research: core-droplet
+research: {
+  parent: core-droplet
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ravine
+    }
+  ]
+}
 researchCost: [
   iron/1300
   chromium/1300
-  aluminium/800
+  kanthal/800
 ]
 requirements: [
   iron/130
   chromium/130
-  aluminium/80
+  kanthal/80
 ]
   plans: [
     {
