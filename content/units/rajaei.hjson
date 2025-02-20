@@ -13,6 +13,12 @@ legSpeed: 0.10
 legForwardScl: 0.57
 legExtension: -2
 legMoveSpace: 1.4
+research: assault-fabricator
+researchCost: [
+  iron/400
+  kanthal/250
+  simple-frame/50
+]
   weapons: [
     {
         x: 0
