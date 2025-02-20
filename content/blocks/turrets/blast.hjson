@@ -76,11 +76,11 @@ shootSound: shotgunSmall
 shoot: {
    shots: 8
 }
-coolantMultiplier: 1.2
+coolantMultiplier: 1.4
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.15
+  amount: 0.2
 }
 squareSprite: false
