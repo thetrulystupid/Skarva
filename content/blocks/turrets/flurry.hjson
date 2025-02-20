@@ -70,12 +70,12 @@ requirements: [
   kanthal/90
   simple-frame/15
 ]
-coolantMultiplier: 0.7
+coolantMultiplier: 0.8
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.45
+  amount: 0.4
 }
 category: turret
 shootSound: shootBig
