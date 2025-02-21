@@ -3,7 +3,7 @@ name: Sodium Soaker
 description: Soaks sodium in a vat of water causing it to react. Produces a small amount of heat.
 size: 2
 heatOutput: 2
-craftTime: 75
+craftTime: 115
 squareSprite: false
 drawer: {
   type: DrawMulti
