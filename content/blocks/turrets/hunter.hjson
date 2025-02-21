@@ -13,6 +13,7 @@ reload: 150
 shootCone: 5
 rotateSpeed: 2
 range: 220
+predictTarget: false
 research: blast
 researchCost: [
   iron/800
