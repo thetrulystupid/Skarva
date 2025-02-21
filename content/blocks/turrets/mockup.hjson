@@ -1,0 +1,53 @@
+type: ItemTurret
+name: mockup
+description: dev turret for testing stuff idk not intended for actual gameplay
+size: 2
+targetAir: true
+targetGround: true
+health: 350
+inaccuracy: 0
+reload: 30
+shootCone: 2
+rotateSpeed: 7
+range: 80
+ammoTypes: {
+	coal: {
+		type: BasicBulletType
+		speed: 3,
+		damage: 44747,
+		width: 7
+		height: 7
+		ammoMultiplier: 1,
+	},
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skar-
+  parts: [
+      {
+        type: RegionPart
+        suffix: -barrel-left
+        mirror: false
+        under: true
+        progress: recoil
+        moveY: -1.5
+        recoilIndex: 0
+      }   
+      {
+        type: RegionPart
+        suffix: -barrel-right
+        mirror: false
+        under: true
+        progress: recoil
+        moveY: -1.5
+        recoilIndex: 1
+      }   
+  ]
+}
+requirements: [
+    sand/1
+    coal/2
+    scrap/3
+]
+category: turret
+squareSprite: false
