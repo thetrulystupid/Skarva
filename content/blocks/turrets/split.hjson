@@ -29,7 +29,7 @@ ammoTypes: {
 	sodium: {
 		type: BasicBulletType
 		speed: 9,
-		damage: 5,
+		damage: 8,
 		width: 4
 		height: 11
 		trailColor: ffd8fc
@@ -40,16 +40,16 @@ ammoTypes: {
 		shootColor: ffd8fc
    		frontColor: f4afef
   		backColor: ad81be
-  		homingPower: 0.24
-  		homingDelay: 14
-  		homingRange: 44
+  		homingPower: 0.36
+  		homingDelay: 10
+  		homingRange: 53
 		smokeEffect: none,
-		ammoMultiplier: 5,
+		ammoMultiplier: 4,
 	},
 	aluminium: {
 		type: BasicBulletType
 		speed: 7.5,
-		damage: 12,
+		damage: 16,
 		width: 5
 		height: 14
 		trailColor: c6c6c6
@@ -58,9 +58,9 @@ ammoTypes: {
 		shootEffect: shootBigColor,
   		frontColor: 8c8c8c
  		backColor: 575757
-  		homingPower: 0.36
- 		homingDelay: 9
- 		homingRange: 55
+  		homingPower: 0.54
+ 		homingDelay: 6
+ 		homingRange: 67
  		shootColor: c6c6c6
 		smokeEffect: none,
 		pierce: true
@@ -90,4 +90,3 @@ squareSprite: false
   shoot: {
    shots: 2
 }
-velocityRnd: 0.22
