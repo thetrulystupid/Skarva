@@ -2,7 +2,7 @@ type: flying
 flying: true
 name: Needle
 description: Weak support unit designed for suppressing fire and repairing.
-speed: 4.5
+speed: 4
 health: 230
 controller: RepairAI
 commands: [move, repair, rebuild, assist]
@@ -40,7 +40,6 @@ engines: [
         alternate: false
         rotate: false
         reload: 165
-        shootSound: shootHeal
         shootSound: shootAltLong
         bullet: {
             despawnEffect: flakExplosion
@@ -57,9 +56,9 @@ engines: [
             trailLength: 5
             trailWidth: 1
             pierce: true
-            pierceCap: 1
-            width: 4
-            height: 5
+            pierceCap: 2
+            width: 5
+            height: 4
             damage: 18
             splashDamage: 18
             splashDamageRadius: 18
