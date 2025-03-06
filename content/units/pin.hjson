@@ -1,10 +1,10 @@
 type: mech
 name: Pin
-description: Small mech for scouting or raiding in large groups.
-speed: 0.85
+description: Fires alternating, twin bullets at nearby enemies and wildlife.
+speed: 0.8
 flying: false
-health: 210
-hitSize: 6
+health: 260
+hitSize: 7
 outlineColor: 2a2e35
 research: assault-fabricator
 researchCost: [
@@ -19,10 +19,9 @@ researchCost: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 38
+        reload: 44
         recoil: 1.5
-        mirror: true
-        alternate: true
+	top: false
         shoot: {
           shots: 2
           shotDelay: 7
@@ -35,7 +34,7 @@ researchCost: [
 	    	trailWidth: 1
             width: 4
             height: 7
-            damage: 9
+            damage: 12
         }
     }
 ]
