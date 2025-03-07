@@ -1,8 +1,8 @@
 type: mech
 name: Pike
-description: Large mech for pushing into defenses. Fires twin mortars at nearby enemies.
-speed: 0.55
-armor: 4
+description: Fires twin mortar shells at near and far away enemies. Has mounted guns as sidearms.
+speed: 0.5
+armor: 5
 flying: false
 health: 1220
 rotateSpeed: 3
@@ -27,9 +27,9 @@ outlineColor: 2a2e35
 	    	trailWidth: 3
             width: 8
             height: 7
-            damage: 66
-            splashDamage: 66
-            splashDamageRadius: 44
+            damage: 46
+            splashDamage: 46
+            splashDamageRadius: 30
             hitEffect: blastExplosion
             despawnEffect: blastExplosion
         }
