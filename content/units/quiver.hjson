@@ -1,11 +1,11 @@
 type: mech
-name: Quiver
-description: Used for breaching walls and focusing down larger units. Ignores armor.
-speed: 0.95
+name: Estoc
+description: Burns nearby enemies and wildlife with phosphorous-based flames. Ignores armor.
+speed: 0.9
 flying: false
-health: 780
-armor: 2
-hitSize: 9
+health: 830
+armor: 3
+hitSize: 10
 outlineColor: 2a2e35
   weapons: [
     {
@@ -15,13 +15,8 @@ outlineColor: 2a2e35
         mirror: true
         alternate: false
         rotate: false
-        reload: 9
+        reload: 11
         shootSound: flame
-        shoot: {
-        type: shootSpread
-        shots: 2
-        spread: 5
-        } 
         bullet: {
           	 type: BulletType
           	 speed: 3.5
@@ -35,15 +30,15 @@ outlineColor: 2a2e35
 	   	 trailWidth: 1
            	 width: 0.01
            	 height: 0.01
-           	 damage: 7
-          	 lifetime: 16
+           	 damage: 9
+          	 lifetime: 17
           	 despawnEffect: none
          	 hittable: false
 	 	 status: burning
 	  	 statusDuration: 300
            	 smokeEffect: {
         type: ParticleEffect
-          particles: 12
+          particles: 11
           length: 70
           lifetime: 20
           interp: circleOut
