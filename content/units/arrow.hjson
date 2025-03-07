@@ -1,50 +1,50 @@
 type: mech
 name: Arrow
-description: Armed with a heavy burstfire gun. Burns nearby enemies with a flamethrower.
-speed: 0.7
+description: Fires triplet bullets and phosphorous flames at nearby enemies or wildlife. 
+speed: 0.65
 flying: false
-health: 490
-hitSize: 6
+health: 720
+hitSize: 8
 outlineColor: 2a2e35
   weapons: [
     {
-        x: 6.5
+        x: 6.75
         y: 0
         name: arrow-gun
         mirror: false
         alternate: false
         rotate: false
-        reload: 51
+        reload: 63
         recoil: 2
         shoot: {
           shots: 3
-          shotDelay: 5
+          shotDelay: 7
          }
          shootSound: shootBig
         bullet: {
             type: BasicBulletType
-            speed: 5
+            speed: 5.5
 	    trailColor: d9d9d9
 	    trailLength: 3
-	    trailWidth: 2
+	    trailWidth: 1.5
             width: 6
-            height: 9
-            damage: 11
+            height: 10
+            damage: 19
         }
     }
     {
-        x: -6.5
+        x: -6.75
         y: 0
         name: arrow-burny-gun
         mirror: false
         alternate: false
         rotate: false
-        reload: 8
+        reload: 7
         shootSound: flame
         shoot: {
         type: shootSpread
         shots: 3
-        spread: 11
+        spread: 12
         } 
         bullet: {
             type: BulletType
@@ -57,12 +57,12 @@ outlineColor: 2a2e35
             width: 0.01
             height: 0.01
             damage: 3
-            lifetime: 13
+            lifetime: 15
             despawnEffect: none
             hittable: false
             smokeEffect: {
         type: ParticleEffect
-          particles: 13
+          particles: 16
           length: 70
           lifetime: 20
           interp: circleOut
