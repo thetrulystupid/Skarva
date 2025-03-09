@@ -28,8 +28,8 @@ outlineColor: 2a2e35
 	    	trailWidth: 3
             width: 8
             height: 7
-            damage: 46
-            splashDamage: 46
+            damage: 38
+            splashDamage: 38
             splashDamageRadius: 30
             hitEffect: blastExplosion
             despawnEffect: blastExplosion
