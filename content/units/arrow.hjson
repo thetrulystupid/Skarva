@@ -40,13 +40,13 @@ outlineColor: 2a2e35
         mirror: false
         alternate: false
         rotate: false
-        reload: 7
+        reload: 13
 	top: false
         shootSound: flame
         shoot: {
         type: shootSpread
         shots: 3
-        spread: 12
+        spread: 8
         } 
         bullet: {
             type: BulletType
@@ -58,7 +58,7 @@ outlineColor: 2a2e35
 	    trailWidth: 1
             width: 0.01
             height: 0.01
-            damage: 3
+            damage: 6
             lifetime: 15
             despawnEffect: none
             hittable: false
