@@ -4,7 +4,7 @@ description: Fires twin mortar shells at near and far away enemies. Has mounted 
 speed: 0.5
 armor: 5
 flying: false
-health: 1220
+health: 1440
 rotateSpeed: 3
 hitSize: 13
 outlineColor: 2a2e35
