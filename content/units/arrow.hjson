@@ -16,6 +16,7 @@ outlineColor: 2a2e35
         rotate: false
         reload: 63
         recoil: 2
+	top: false
         shoot: {
           shots: 3
           shotDelay: 7
@@ -40,6 +41,7 @@ outlineColor: 2a2e35
         alternate: false
         rotate: false
         reload: 7
+	top: false
         shootSound: flame
         shoot: {
         type: shootSpread
