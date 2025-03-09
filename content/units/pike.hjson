@@ -18,6 +18,7 @@ outlineColor: 2a2e35
         rotate: false
         reload: 110
         recoil: 3
+	top: false
         shootSound: artillery
         bullet: {
             type: ArtilleryBulletType
@@ -35,25 +36,25 @@ outlineColor: 2a2e35
         }
     }
     {
-        x: 5.5
-        y: -2
+        x: 6.5
+        y: -3
         name: pike-topgun
         mirror: true
         alternate: true
         rotate: true
         rotationLimit: 90
-        reload: 23
+        reload: 19
         recoil: 1.5
         shootSound: shootBig
         bullet: {
             type: BasicBulletType
-            speed: 4
+            speed: 3.5
             trailColor: d9d9d9
-	    	trailLength: 3
-	    	trailWidth: 2
-            width: 4
+	    	trailLength: 2
+	    	trailWidth: 1
+            width: 3
             height: 5
-            damage: 17
+            damage: 9
         }
     }
 ]
