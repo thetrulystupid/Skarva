@@ -10,7 +10,7 @@ hitSize: 13
 outlineColor: 2a2e35
   weapons: [
     {
-        x: 10
+        x: 9
         y: 0
         name: pike-mortar
         mirror: true
