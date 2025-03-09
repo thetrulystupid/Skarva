@@ -43,18 +43,18 @@ outlineColor: 2a2e35
         alternate: true
         rotate: true
         rotationLimit: 90
-        reload: 19
+        reload: 26
         recoil: 1.5
         shootSound: shootBig
         bullet: {
             type: BasicBulletType
             speed: 3.5
             trailColor: d9d9d9
-	    	trailLength: 2
+	    	trailLength: 3
 	    	trailWidth: 1
             width: 3
-            height: 5
-            damage: 9
+            height: 6
+            damage: 14
         }
     }
 ]
