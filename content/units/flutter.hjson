@@ -50,8 +50,8 @@ weapons: [
           type: ContinuousFlameBulletType
           damage: 5
           flareLength: 4
-          length: 45
-          width: 5
+          length: 40
+          width: 1.5
 	        status: sapped
 	        statusDuration: 90
           colors: [665c9f, bf92f9]
