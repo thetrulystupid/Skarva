@@ -1,8 +1,8 @@
 type: mech
 name: Pike
 description: Fires twin mortar shells at near and far away enemies. Has mounted guns as sidearms.
-speed: 0.5
-armor: 5
+speed: 0.65
+armor: 6
 flying: false
 health: 1440
 rotateSpeed: 3
