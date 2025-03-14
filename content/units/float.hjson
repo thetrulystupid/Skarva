@@ -1,13 +1,13 @@
 type: mech
 name: Float
-description: Upgrade to the Flutter. Zaps nearby blocks with sapping lightning.
+description: Zaps nearby enemies or wildlife with sapping lightning. Limited range.
 hovering: true
 hoverable: true
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-drag: 0.14
+drag: 0.6
 outlineColor: 2a2e35
 speed: 1.8
 rotateSpeed: 3
@@ -16,6 +16,7 @@ groundLayer: 60
 health: 460
 engineSize: 0
 hitSize: 11
+targetAir: false
 engines: [
   {
     x: 0
@@ -29,39 +30,47 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    x: 2
-    y: 1.5
+    x: 1
+    y: -1.5
     mirror: true
     alternate: false
-    reload: 66
+    reload: 77
     rotate: false
     shootSound: spark
     bullet: {
       type: LightningBulletType
       lightningColor: dbbfff
-      lightningLength: 12
+      lightningLength: 9
       shootEffect: none
       damage: 14
       status: sapped
-      statusDuration: 240
+      statusDuration: 120
         }
     }
     {
-    x: 2
-    y: 1.5
-    mirror: true
-    alternate: false
-    reload: 66
-    rotate: false
-    shootSound: spark
-    bullet: {
-      type: LightningBulletType
-      lightningColor: dbbfff
-      lightningLength: 12
-      shootEffect: none
-      damage: 14
-      status: sapped
-      statusDuration: 240
+        x: 6
+        y: 1
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 17
+        recoil: 1.5
+	      top: false
+        bullet: {
+        type: MissileBulletType
+        speed: 5.5
+        frontColor: bf92f9
+    	  backColor: 665c9f
+	    	trailColor: 9176cc
+	    	trailLength: 3
+	    	trailWidth: 1
+        width: 2
+        height: 5
+        damage: 7
+        pierce: true
+        pierceCap: 2
+        pierceArmor: true
+        }
     }
   }
 ]
