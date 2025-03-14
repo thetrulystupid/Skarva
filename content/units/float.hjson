@@ -9,7 +9,7 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.6
 outlineColor: 2a2e35
-speed: 1.8
+speed: 3.0
 rotateSpeed: 3
 accel: 0.08
 groundLayer: 60
@@ -20,12 +20,12 @@ targetAir: false
 engines: [
   {
     x: 0
-    y: -4.5
-    radius: 3.5
+    y: -4
+    radius: 5
     rotation: -90
   }
 ]
-itemCapacity: 25
+itemCapacity: 20
 useEngineElevation: false
 lowAltitude: true
 weapons: [
@@ -42,34 +42,34 @@ weapons: [
       lightningColor: dbbfff
       lightningLength: 9
       shootEffect: none
-      damage: 14
+      damage: 13
       status: sapped
-      statusDuration: 120
+      statusDuration: 360
         }
     }
     {
-        x: 6
+        x: 5.5
         y: 1
         mirror: true
         alternate: true
         rotate: false
-        reload: 17
-        recoil: 1.5
-	      top: false
+        reload: 19
+	top: false
         bullet: {
         type: MissileBulletType
         speed: 5.5
         frontColor: bf92f9
-    	  backColor: 665c9f
-	    	trailColor: 9176cc
-	    	trailLength: 3
-	    	trailWidth: 1
-        width: 2
+    	backColor: 665c9f
+	trailColor: 9176cc
+	trailLength: 3
+	trailWidth: 1
+        width: 3
         height: 5
-        damage: 7
+        damage: 6
         pierce: true
         pierceCap: 2
         pierceArmor: true
+	pierceBuildings: true
         }
     }
   }
