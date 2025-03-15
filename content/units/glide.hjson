@@ -21,7 +21,7 @@ abilities: [
     damage: 11
     status: scratched
     statusDuration: 1500
-    range: 95
+    range: 135
     maxTargets: 4
   }
 ]
@@ -62,7 +62,7 @@ weapons: [
           type: ContinuousFlameBulletType
           damage: 19
           flareLength: 6
-          length: 95
+          length: 90
           width: 6
 	  status: sapped
 	  statusDuration: 360
