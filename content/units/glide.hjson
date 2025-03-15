@@ -8,7 +8,7 @@ speed: 2.2
 rotateSpeed: 2
 accel: 0.07
 groundLayer: 60
-health: 1220
+health: 1330
 armor: 3
 engineSize: 0
 hitSize: 14
@@ -18,30 +18,18 @@ abilities: [
     hitUnits: true
     reload: 52
     color: 9be98b
-    damage: 11
+    damage: 14
     status: scratched
-    statusDuration: 1500
-    range: 135
+    statusDuration: 900
+    range: 120
     maxTargets: 4
   }
 ]
 engines: [
   {
-    x: 6
-    y: -7
-    radius: 3
-    rotation: -90
-  }
-  {
-    x: -6
-    y: -7
-    radius: 3
-    rotation: -90
-  }
-  {
     x: 0
-    y: -9
-    radius: 4.5
+    y: -8.5
+    radius: 6.5
     rotation: -90
   }
 ]
@@ -49,7 +37,7 @@ itemCapacity: 60
 weapons: [
   {
     x: 0
-    y: 2
+    y: 0
     mirror: true
     alternate: false
     reload: 30
@@ -60,9 +48,9 @@ weapons: [
     shootSound: torch
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 19
+          damage: 18
           flareLength: 6
-          length: 90
+          length: 80
           width: 6
 	  status: sapped
 	  statusDuration: 360
