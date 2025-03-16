@@ -1,0 +1,11 @@
+type: Wall
+name: Zotrine Wall
+description: Small zotrine wall that protects structures. Absorbs certain projectiles.
+size: 1
+health: 770
+research: plexiglass-wall-large
+squareSprite: false
+requirements: [
+  zotrine/8
+]
+category: defense
