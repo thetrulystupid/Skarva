@@ -10,11 +10,11 @@ reload: 133
 shootCone: 4
 rotateSpeed: 2.5
 range: 390
-research: fang
+research: volatile
 researchCost: [
   iron/1100
   chromium/1100
-  palladium/600
+  zotrine/600
   simple-frame/100
 ]
 ammoTypes: {
@@ -74,7 +74,7 @@ drawer: {
 requirements: [
     iron/110
     chromium/110
-    palladium/60
+    zotrine/60
     simple-frame/10
 ]
 coolantMultiplier: 0.9
