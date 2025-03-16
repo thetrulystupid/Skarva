@@ -1,0 +1,6 @@
+type: Floor
+name: Gritty Stone Floor
+variants: 3
+attributes: {
+   silt: 0.1111
+}
