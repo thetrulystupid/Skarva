@@ -178,7 +178,7 @@ itemWhitelist: [
   "simple-frame",
   "sodium",
   "sand",
-  "palladium",
+  "zotrine",
   "plexiglass",
   "simple-wire"
 ]
