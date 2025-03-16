@@ -1,0 +1,4 @@
+type: OreBlock
+name: Zotrine Ore
+itemDrop: zotrine
+hardness: 1
