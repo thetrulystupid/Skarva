@@ -38,7 +38,7 @@ weapons: [
   {
     x: 0
     y: 2
-    mirror: true
+    mirror: false
     alternate: false
     reload: 15
     alwaysContinuous: true
