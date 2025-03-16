@@ -13,7 +13,7 @@ speed: 3.3
 rotateSpeed: 5
 accel: 0.08
 groundLayer: 60
-health: 460
+health: 310
 engineSize: 0
 hitSize: 11
 targetAir: false
