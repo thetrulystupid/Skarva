@@ -9,8 +9,8 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.6
 outlineColor: 2a2e35
-speed: 3.0
-rotateSpeed: 3
+speed: 3.3
+rotateSpeed: 5
 accel: 0.08
 groundLayer: 60
 health: 460
@@ -31,7 +31,7 @@ lowAltitude: true
 weapons: [
   {
     x: 1
-    y: -1.5
+    y: -1
     mirror: true
     alternate: false
     reload: 77
@@ -40,7 +40,7 @@ weapons: [
     bullet: {
       type: LightningBulletType
       lightningColor: dbbfff
-      lightningLength: 9
+      lightningLength: 14
       shootEffect: none
       damage: 13
       status: sapped
@@ -48,28 +48,29 @@ weapons: [
         }
     }
     {
-        x: 5.5
-        y: 1
+        x: 5
+        y: -2
         mirror: true
         alternate: true
         rotate: false
-        reload: 19
+        reload: 23
+	shootSound: blast-support
 	top: false
-        bullet: {
-        type: MissileBulletType
-        speed: 5.5
-        frontColor: bf92f9
-    	backColor: 665c9f
-	trailColor: 9176cc
-	trailLength: 3
-	trailWidth: 1
-        width: 3
-        height: 5
-        damage: 6
-        pierce: true
-        pierceCap: 2
-        pierceArmor: true
-	pierceBuildings: true
+        	bullet: {
+        		type: MissileBulletType
+        		speed: 5.5
+        		frontColor: bf92f9
+    			backColor: 665c9f
+			trailColor: 9176cc
+			trailLength: 3
+			trailWidth: 1
+       			width: 3
+        		height: 5
+        		damage: 6
+        		pierce: true
+        		pierceCap: 2
+        		pierceArmor: true
+			pierceBuildings: true
         }
     }
 ]
