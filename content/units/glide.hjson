@@ -4,7 +4,7 @@ name: Glide
 description: Blazes nearby enemies with a large, sapping and phosphorous-based flamethrower. Flies.
 drag: 0.05
 outlineColor: 2a2e35
-speed: 2.2
+speed: 0.9
 rotateSpeed: 2
 accel: 0.07
 groundLayer: 60
@@ -17,7 +17,7 @@ abilities: [
     type: EnergyFieldAbility
     hitUnits: true
     reload: 52
-    color: 9be98b
+    color: bf92f9
     damage: 14
     status: scratched
     statusDuration: 900
@@ -28,8 +28,8 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -8.5
-    radius: 6.5
+    y: -10
+    radius: 8
     rotation: -90
   }
 ]
@@ -38,7 +38,7 @@ weapons: [
   {
     x: 0
     y: 0
-    mirror: true
+    mirror: false
     alternate: false
     reload: 30
     alwaysContinuous: true
@@ -48,7 +48,7 @@ weapons: [
     shootSound: torch
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 18
+          damage: 15
           flareLength: 6
           length: 80
           width: 6
