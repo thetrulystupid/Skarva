@@ -14,7 +14,7 @@ shootCone: 5
 rotateSpeed: 2
 range: 220
 predictTarget: false
-research: fang
+research: blast
 researchCost: [
   iron/800
   chromium/800
