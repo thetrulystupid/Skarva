@@ -20,7 +20,7 @@ researchCost: [
 ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
-		speed: 8,
+		speed: 8.5,
 		damage: 52,
 		width: 6
 		height: 11
@@ -36,14 +36,16 @@ ammoTypes: {
 		pierceCap: 4
   		pierceArmor: true
 	},
-	palladium: {
+	zotrine: {
 		type: BasicBulletType
-		speed: 10,
+		speed: 12,
 		damage: 74,
 		width: 7
 		height: 14
 		lifetime: 30
-		trailColor: ff9d2b
+		trailColor: 666585
+		frontColor: 807fac
+		backColor: 49415d
 		trailLength: 6
 		trailWidth: 2
     		casingEffect: casing2
