@@ -1,0 +1,11 @@
+type: Wall
+name: Large Zotrine Wall
+description: Large zotrine wall that protects structures. Absorbs certain projectiles.
+size: 2
+health: 3850
+research: zotrine-wall-small
+squareSprite: false
+requirements: [
+  zotrine/32
+]
+category: defense
