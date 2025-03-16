@@ -59,6 +59,34 @@ ammoTypes: {
 	    status: burning
 	    statusDuration: 480
 	},
+	zotrine: {
+	    type: ArtilleryBulletType
+            speed: 3.5
+            trailColor: d9d9d9
+	    trailLength: 3
+	    trailWidth: 4
+            width: 11
+            height: 8
+            damage: 29
+            splashDamage: 29
+            splashDamageRadius: 26
+	    status: scratched
+	    statusDuration: 600
+	    fragBullets: 5
+	    	fragBullet: {
+      	    		type: BasicBulletType
+     	    		pierce: true
+			pierceCap: 1
+     	    		width: 4
+    	    		height: 3
+    	   		frontColor: 807fac
+   	    		backColor: 49415d
+    	    		pierceBuilding: false
+    	    		damage: 6
+    	    		hitEffect: none
+    	    		despawnEffect: none
+   		 }
+	},
 }
 drawer: {
   type: DrawTurret
