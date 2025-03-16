@@ -1,6 +1,6 @@
-name: Palladium
+name: Zotrine
 description: "A hard, malleable metal used in advanced walls and turrets."
-hardness: 2
+hardness: 2.2
 cost: 1.4
 color: cd6f34
 research: kanthal
